@@ -7,10 +7,15 @@ import { HeaderTwo } from "../atoms";
 import { SectionWrapper } from "../layout/SectionWrapper";
 import { Footer } from "../organisms";
 import { HardwareImage } from "../molecules";
+import NavbarTwo from "../templates/NavbarTwo";
 
 const Hardware = () => {
   return (
     <div>
+      <NavbarTwo
+        text=" Everything you need to get started with Workwise."
+        buttonText="Try for free"
+      />
       <SectionWrapper>
         <img
           src={screenshot}
@@ -18,7 +23,7 @@ const Hardware = () => {
           className="object-cover mt-12 lg:w-5/6"
         />
 
-        <div className="lg:flex">
+        <div className="lg:flex lg:ml-16 lg:mt-20 lg:mb-24">
           <section className="mt-12">
             <HardwareImage image={ipad} title="Ipad" className="mb-12" />
             <HardwareImage image={windfall} title="Windfall Stand" />

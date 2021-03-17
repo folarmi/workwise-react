@@ -6,7 +6,7 @@
 .navbar {
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -43,7 +43,7 @@
 
 .nav-text a {
   text-decoration: none;
-  color: #1a1a1a;
+  color: #ffffff;
   font-weight: 600;
   font-size: 18px;
   width: 95%;
@@ -56,6 +56,7 @@
 
 .nav-text a:hover {
   background-color: #ffffff;
+  color: #1a1a1a;
 }
 
 .nav__menu__items {
@@ -67,7 +68,7 @@
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 /* check */
@@ -84,3 +85,10 @@
 .user__info {
   display: flex;
 }
+
+@media screen and (min-width: 1024px) {
+  .button {
+    margin-left: 32rem;
+  }
+}
+

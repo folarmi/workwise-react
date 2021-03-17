@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { SectionWrapper } from "../layout/SectionWrapper";
+import logo from "../assets/Group.png";
 import { LogInIntro } from "../molecules";
 import Navbar from "../templates/Navbar";
 const Login = () => {
@@ -7,7 +8,7 @@ const Login = () => {
     <div>
       <SectionWrapper>
         <div>
-          <Navbar />
+          <Navbar image={logo} />
         </div>
 
         <div className="lg:flex">

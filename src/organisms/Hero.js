@@ -1,13 +1,14 @@
 import postcard from "../assets/postCard.png";
 import postcardTwo from "../assets/postCardTwo.png";
 import postcardThree from "../assets/postCardThree.png";
+import logo from "../assets/Group.png";
 import { HeaderOne, SmallText } from "../atoms";
 import Navbar from "../templates/Navbar";
 
 const Hero = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar image={logo} />
       <div className="lg:flex justify-between pb-8">
         <section className="mt-16 lg:ml-28">
           <HeaderOne
