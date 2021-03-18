@@ -27,12 +27,14 @@ const SectionTwo = () => {
               <img src={dashboard} alt="dashboard" className="mb-8 lg:w-full" />
             </div>
           </div>
-          <button class="bg-primary text-white text-sm font-bold py-4 px-12 rounded-md">
-            Sign up for free
-          </button>
+          <div className="lg:-mt-48">
+            <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
+              Sign up for free
+            </button>
+          </div>
         </section>
 
-        <section className="">
+        <section className="lg:mt-64">
           <div className="lg:flex justify-between">
             <Aside
               title="Smarter room booking for everyone in your office"
@@ -41,12 +43,14 @@ const SectionTwo = () => {
             />
             <img src={dashboard2} alt="dashboard2" className="mb-8 lg:w-full" />
           </div>
-          <button class="bg-primary text-white text-sm font-bold py-4 px-12 rounded-md">
-            Sign up for free
-          </button>
+          <div className="lg:-mt-72">
+            <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
+              Sign up for free
+            </button>
+          </div>
         </section>
 
-        <section className="">
+        <section className="lg:mt-72">
           <div className="lg:flex justify-between">
             <Aside
               title="Effectively manage your company mails and package deliveries"
@@ -55,12 +59,14 @@ const SectionTwo = () => {
             />
             <img src={dashboard3} alt="dashboard3" className="mb-8 lg:w-full" />
           </div>
-          <button class="bg-primary text-white text-sm font-bold py-4 px-12 rounded-md">
-            Sign up for free
-          </button>
+          <div className="lg:-mt-72">
+            <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
+              Sign up for free
+            </button>
+          </div>
         </section>
 
-        <section className="mt-8 bg-gray border border-primary rounded-lg p-2 text-center">
+        <section className="mt-8 bg-gray border border-primary rounded-lg p-2 text-center lg:mt-64">
           <HeaderTwo
             text="Increase employee engagement through the roof!"
             className="lg:max-w-3xl lg:ml-40 lg:text-5xl"
