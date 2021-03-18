@@ -1,7 +1,7 @@
 import { HeaderTwo } from "../atoms";
 import dashboard from "../assets/dashboard.png";
 import dashboard2 from "../assets/dashboard2.png";
-import dashboard3 from "../assets/dashboard3.png";
+import dashboardThree from "../assets/dashboardThree.png";
 import { Aside } from "../molecules";
 import { SectionWrapper } from "../layout/SectionWrapper";
 
@@ -49,14 +49,14 @@ const SectionTwo = () => {
               />
             </div>
           </div>
-          <div className="lg:-mt-48">
+          <div className="lg:-mt-72">
             <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
               Sign up for free
             </button>
           </div>
         </section>
 
-        <section className="mt-64">
+        <section className="lg:mt-80">
           <div className="lg:flex justify-between">
             <Aside
               title="Effectively manage your company mails and package deliveries"
@@ -64,26 +64,22 @@ const SectionTwo = () => {
               className="mb-12 lg:max-w-xs"
             />
             <div className="">
-              <img
-                src={dashboard3}
-                alt="dashboard"
-                className="mb-8 lg:w-full"
-              />
+              <img src={dashboardThree} alt="dashboard" className="mb-8" />
             </div>
           </div>
-          <div className="lg:-mt-48">
+          <div className="lg:-mt-64">
             <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
               Sign up for free
             </button>
           </div>
         </section>
 
-        <section className="mt-8 bg-gray border border-primary rounded-lg p-2 text-center lg:mt-64">
+        <section className="mt-8 bg-gray border border-primary rounded-lg p-4 lg:mb-32 text-center lg:mt-72 lg:-ml-24">
           <HeaderTwo
             text="Increase employee engagement through the roof!"
-            className="lg:max-w-3xl lg:ml-40 lg:text-5xl"
+            className=" lg:mt-12 lg:text-7xl font-verybold font-bold"
           />
-          <button class="bg-primary text-white font-bold text-xs py-2 px-4 mb-8 rounded mt-8">
+          <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md my-8 text-center">
             Find out how
           </button>
         </section>

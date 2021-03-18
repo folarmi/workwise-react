@@ -86,9 +86,14 @@
   display: flex;
 }
 
-img {
+/* img {
   image-rendering: pixelated;
-}
+} */
+
+/* img {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+} */
 
 .footer-text {
   font-size: 0.58rem;
