@@ -13,9 +13,9 @@ const Home = () => {
     <div>
       <SectionWrapper className="overflow-hidden">
         <Hero />
-        <SectionOne />
-        <SectionTwo />
       </SectionWrapper>
+      <SectionOne />
+      <SectionTwo />
       <SectionThree />
       <SectionFour />
       <Footer />

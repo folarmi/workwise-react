@@ -9,6 +9,10 @@ module.exports = {
         grey: "#e5e5e5",
       },
     },
+    fontFamily: {
+      sans: ["Bw Nista Geometric DEMO", "sans-serif"],
+      verybold: ["Bw Nista Geometric DEMO Bold", "sans-serif"],
+    },
   },
   variants: {
     extend: {},

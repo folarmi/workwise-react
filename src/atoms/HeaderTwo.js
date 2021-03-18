@@ -1,6 +1,6 @@
 const HeaderTwo = ({ text, className }) => {
   return (
-    <div className={`font-bold text-4xl ${className}`}>
+    <div className={` text-4xl ${className}`}>
       <p>{text}</p>
     </div>
   );

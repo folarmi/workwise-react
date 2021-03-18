@@ -86,9 +86,14 @@
   display: flex;
 }
 
+img {
+  /* image-rendering: auto;
+  image-rendering: crisp-edges; */
+  image-rendering: pixelated;
+}
+
 @media screen and (min-width: 1024px) {
   .button {
     margin-left: 32rem;
   }
 }
-
