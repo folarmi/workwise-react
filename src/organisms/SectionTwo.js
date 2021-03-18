@@ -23,8 +23,9 @@ const SectionTwo = () => {
               text="Welcome your visitors and create a lasting impression with our secure visitor management feature. With a visitor management platform that supports your workplace security, you can easily identify unauthorized guests, know who is in the building in case of an emergency and much more."
               className="mb-12 lg:max-w-xs"
             />
-            {/* <div className="lg:ml-64"></div> */}
-            <img src={dashboard} alt="dashboard" className="mb-8 lg:w-full" />
+            <div className="">
+              <img src={dashboard} alt="dashboard" className="mb-8 lg:w-full" />
+            </div>
           </div>
           <button class="bg-primary text-white text-sm font-bold py-4 px-12 rounded-md">
             Sign up for free

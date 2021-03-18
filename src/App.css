@@ -87,9 +87,12 @@
 }
 
 img {
-  /* image-rendering: auto;
-  image-rendering: crisp-edges; */
   image-rendering: pixelated;
+}
+
+.footer-text {
+  font-size: 0.58rem;
+  letter-spacing: 0.2rem;
 }
 
 @media screen and (min-width: 1024px) {
