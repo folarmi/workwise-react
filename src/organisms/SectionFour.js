@@ -20,6 +20,11 @@ const SectionFour = () => {
             <Aside title="From Our Blog" className="lg:w-48" />
           </div>
           <div>
+            {/* <div className="">
+              <p className="text-black bg-white rounded-md">
+                Workwise raises $100m Series A funding from Salesforce.
+              </p>
+            </div> */}
             <img
               src={blog}
               alt="blog"

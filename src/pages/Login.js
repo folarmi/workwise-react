@@ -3,9 +3,10 @@ import { SectionWrapper } from "../layout/SectionWrapper";
 import logo from "../assets/Group.png";
 import { LogInIntro } from "../molecules";
 import Navbar from "../templates/Navbar";
+import Input from "../templates/Input";
 const Login = () => {
   return (
-    <div>
+    <div className="font-sans">
       <SectionWrapper>
         <div>
           <Navbar image={logo} />
@@ -20,46 +21,34 @@ const Login = () => {
             />
           </section>
 
-          <section className="border border-primary rounded-md mt-16 p-4">
-            <div>
-              <label
-                htmlFor="Your company url"
-                className="text-xs text-primary"
-              >
-                Your company url
-              </label>
-              <section className="flex items-center">
-                <input
-                  type="text"
-                  placeholder="mentworkspace"
-                  className="border border-primary outline-none rounded-md p-2 w-9/12"
-                />
-                <p className="text-xs text-darkAsh ml-2">.workwise.com</p>
-              </section>
-            </div>
+          <section className="border border-primary rounded-md mt-16 lg p-8">
+            <section className="flex items-center">
+              <Input label="Your company url" placeholder="mentworkspace" />
+              <p className="text-base font-semibold text-ash ml-2">
+                .workwise.com
+              </p>
+            </section>
 
             <div className="mt-4">
-              <label
-                htmlFor="Your company url"
-                className="text-xs text-primary"
-              >
-                Your company email
-              </label>
-              <input
-                type="email"
+              <Input
+                label="Your company email"
                 placeholder="osa@mudia.ment"
-                className="border border-primary outline-none rounded-md p-2 w-full"
+                className="w-full"
               />
             </div>
 
             <Link to="/securecode">
-              <button class="bg-primary text-white text-xs py-4 px-2 rounded mt-4 w-full">
-                Get Verification Code
+              <button class="bg-primary text-white text-sm mt-8 w-full font-bold py-4 px-8 rounded-md my-8 text-center">
+                Get Secure Verification Code
               </button>
             </Link>
           </section>
         </div>
       </SectionWrapper>
+      <link
+        href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+        rel="stylesheet"
+      />
     </div>
   );
 };

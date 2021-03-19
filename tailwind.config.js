@@ -7,6 +7,8 @@ module.exports = {
         primary: "#0A459F",
         gray: "#FBFBFB",
         grey: "#e5e5e5",
+        ash: "#757575",
+        greyTwo: "#0c0c0c",
       },
     },
     fontFamily: {
