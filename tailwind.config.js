@@ -9,6 +9,7 @@ module.exports = {
         grey: "#e5e5e5",
         ash: "#757575",
         greyTwo: "#0c0c0c",
+        lightAsh: "7490BA",
       },
     },
     fontFamily: {

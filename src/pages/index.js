@@ -8,3 +8,4 @@ export * from "./Pricing";
 export * from "./ContactUs";
 export * from "./SecureCode";
 export * from "./CodeVerified";
+export * from "./TryForFree";

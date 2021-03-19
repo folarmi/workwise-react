@@ -11,6 +11,7 @@ import {
   ContactUs,
   SecureCode,
   CodeVerified,
+  TryForFree,
 } from "./pages";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contactus" exact component={ContactUs} />
           <Route path="/securecode" exact component={SecureCode} />
           <Route path="/codeverified" exact component={CodeVerified} />
+          <Route path="/tryforfree" exact component={TryForFree} />
         </div>
       </Switch>
     </Router>

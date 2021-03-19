@@ -40,7 +40,7 @@ const Navbar = ({
                 Log in
               </button>
             </Link>
-            <Link to="/signup">
+            <Link to="/tryforfree">
               <button
                 class="bg-primary outline-none text-white text-sm font-bold py-4 px-12 rounded-md"
                 style={{ color: buttonTwoColor, backgroundColor: buttonTwoBg }}

@@ -4,6 +4,7 @@ import logo from "../assets/Group.png";
 import { LogInIntro } from "../molecules";
 import Navbar from "../templates/Navbar";
 import Input from "../templates/Input";
+
 const Login = () => {
   return (
     <div className="font-sans">
@@ -17,13 +18,17 @@ const Login = () => {
             <LogInIntro
               text="Enter your workwise company url and your company email to gain access."
               title="Welcome Back!"
-              className="lg:max-w-xs lg:mr-56 placeholder-bodyGrey"
+              className="lg:max-w-xs lg:mr-56 placeholder-bodyGrey font-sans"
             />
           </section>
 
-          <section className="border border-primary rounded-md mt-16 lg p-8">
+          <section className="border border-primary rounded-md mt-12 p-12">
             <section className="flex items-center">
-              <Input label="Your company url" placeholder="mentworkspace" />
+              <Input
+                label="Your company url"
+                placeholder="mentworkspace"
+                type="text"
+              />
               <p className="text-base font-semibold text-ash ml-2">
                 .workwise.com
               </p>
@@ -33,12 +38,13 @@ const Login = () => {
               <Input
                 label="Your company email"
                 placeholder="osa@mudia.ment"
+                type="email"
                 className="w-full"
               />
             </div>
 
             <Link to="/securecode">
-              <button class="bg-primary text-white text-sm mt-8 w-full font-bold py-4 px-8 rounded-md my-8 text-center">
+              <button class="bg-primary text-white text-sm mt-8 w-full font-bold py-4 px-8 rounded-md text-center">
                 Get Secure Verification Code
               </button>
             </Link>
