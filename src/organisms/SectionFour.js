@@ -21,7 +21,7 @@ const SectionFour = () => {
             <Aside title="From Our Blog" className="lg:w-48" />
           </div>
 
-          <section>
+          <section className="mb-12">
             <div className="relative">
               <div className="absolute top-4 left-4 p-4 ml-4 mt-4 bg-white rounded-md h-52 w-44">
                 <p className="text-black font-extrabold mb-12">

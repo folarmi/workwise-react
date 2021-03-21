@@ -110,6 +110,11 @@
   border: 0.5px solid #0a459f;
 }
 
+.secure {
+  height: 16rem;
+  width: 31rem;
+}
+
 @media screen and (min-width: 1024px) {
   .button {
     margin-left: 32rem;

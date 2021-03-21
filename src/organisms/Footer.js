@@ -4,6 +4,11 @@ import ios from "../assets/iosStore.png";
 import { SmallText } from "../atoms";
 import { SectionWrapper } from "../layout/SectionWrapper";
 import { Link } from "react-router-dom";
+// import facebook from "../assets/facebook.png";
+// import twitter from "../assets/twitter.png";
+// import instagram from "../assets/instagram.png";
+// import linkedin from "../assets/linkedin.png";
+
 const Footer = () => {
   return (
     <SectionWrapper>
@@ -128,6 +133,18 @@ const Footer = () => {
                 </ul>
               </section>
             </div>
+
+            {/* <section className="lg:flex lg:justify-between">
+              <p className="font-bold mb-4">Privacy Policy</p>
+              <SmallText>Privacy Policy</SmallText>
+              <p>Terms of Service</p>
+              <div className="flex justify-between">
+                <img src={facebook} alt="facebook" className="object-cover" />
+                <img src={twitter} alt="twitter" />
+                <img src={linkedin} alt="linkedin" />
+                <img src={instagram} alt={instagram} />
+              </div>
+            </section> */}
           </div>
         </div>
       </div>
