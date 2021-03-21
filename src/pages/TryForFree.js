@@ -12,7 +12,7 @@ const TryForFree = () => {
         <Navbar image={logo} />
 
         <div className="lg:mt-12 lg:flex">
-          <section className="lg:ml-16 lg:mr-64">
+          <section className="lg:ml-24 lg:mr-64">
             <LogInIntro
               title={
                 <p>
@@ -35,7 +35,7 @@ const TryForFree = () => {
             />
           </section>
 
-          <section className=" border border-primary border- rounded-md p-8">
+          <section className="slim-border rounded-md m-auto w-5/12  px-8 py-4">
             <Input
               label="Your company email"
               placeholder="osa@mudia.ment"
@@ -50,8 +50,8 @@ const TryForFree = () => {
             />
 
             <div className="float-right">
-              <Link to="/securecode" className="text-right">
-                <button class="bg-primary text-white text-sm my-2 font-bold py-4 px-16 rounded-md">
+              <Link to="/yourcompany" className="text-right">
+                <button class="bg-primary text-white text-sm font-bold py-4 px-16 rounded-md">
                   Next
                 </button>
               </Link>

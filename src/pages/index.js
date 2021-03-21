@@ -9,3 +9,4 @@ export * from "./ContactUs";
 export * from "./SecureCode";
 export * from "./CodeVerified";
 export * from "./TryForFree";
+export * from "./YourCompany";

@@ -95,22 +95,19 @@
 
 .input-box {
   margin-top: 2rem;
-  height: 58px;
-  width: 20rem;
   border: 1px solid #0a459f;
   border-radius: 10px;
-  margin-top: 0.8rem;
   margin-bottom: 0.8rem;
   overflow: hidden;
-}
-
-input::placeholder {
-  color: red;
 }
 
 .footer-text {
   font-size: 0.58rem;
   letter-spacing: 0.2rem;
+}
+
+.slim-border {
+  border: 0.5px solid #0a459f;
 }
 
 @media screen and (min-width: 1024px) {

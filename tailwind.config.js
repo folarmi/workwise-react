@@ -15,6 +15,7 @@ module.exports = {
     fontFamily: {
       sans: ["Bw Nista Geometric DEMO", "sans-serif"],
       verybold: ["Bw Nista Geometric DEMO Bold", "sans-serif"],
+      thin: ["Bw Nista Geometric DEMO Thin", "sans-serif"],
     },
   },
   variants: {

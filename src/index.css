@@ -11,4 +11,9 @@
   src: url(fonts/BwNistaGeometricDEMOMedium.otf);
 }
 
+@font-face {
+  font-family: "Bw Nista Geometric DEMO Thin";
+  src: url(fonts/BwNistaGeometricDEMOThin.otf);
+}
+
 @tailwind utilities;

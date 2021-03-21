@@ -22,7 +22,7 @@ const Login = () => {
             />
           </section>
 
-          <section className="border border-primary rounded-md mt-12 p-12">
+          <section className="slim-border rounded-md mt-12 p-12">
             <section className="flex items-center">
               <Input
                 label="Your company url"

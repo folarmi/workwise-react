@@ -12,6 +12,7 @@ import {
   SecureCode,
   CodeVerified,
   TryForFree,
+  YourCompany,
 } from "./pages";
 
 function App() {
@@ -27,10 +28,10 @@ function App() {
           <Route path="/products" exact component={Products} />
           <Route path="/learn" exact component={Learn} />
           <Route path="/contactus" exact component={ContactUs} />
-          <Route path="/contactus" exact component={ContactUs} />
           <Route path="/securecode" exact component={SecureCode} />
           <Route path="/codeverified" exact component={CodeVerified} />
           <Route path="/tryforfree" exact component={TryForFree} />
+          <Route path="/yourcompany" exact component={YourCompany} />
         </div>
       </Switch>
     </Router>
