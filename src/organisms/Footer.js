@@ -71,9 +71,14 @@ const Footer = () => {
                   Resources
                 </p>
                 <ul>
-                  <li>
-                    <SmallText text="Request Demo" className="font-bold mb-4" />
-                  </li>
+                  <Link to="/requestdemo">
+                    <li>
+                      <SmallText
+                        text="Request Demo"
+                        className="font-bold mb-4"
+                      />
+                    </li>
+                  </Link>
                   <li>
                     <SmallText text="Pricing" className="font-bold mb-4" />
                   </li>

@@ -11,7 +11,7 @@ const TryForFree = () => {
       <SectionWrapper>
         <Navbar image={logo} />
 
-        <div className="lg:mt-12 lg:flex">
+        <div className="lg:mt-12 lg:flex mb-24">
           <section className="lg:ml-24 lg:mr-64">
             <LogInIntro
               title={
