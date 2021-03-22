@@ -11,7 +11,7 @@ const SectionTwo = () => {
       <div className="mt-20">
         <HeaderTwo
           text="Secure tools to help you run the workplace."
-          className="text-center lg:text-6xl lg:max-w-3xl lg:my-32 font-verybold lg:ml-44"
+          className="text-center lg:text-7xl lg:max-w-4xl lg:my-32 font-verybold font-bold lg:ml-44"
         />
       </div>
 
@@ -33,6 +33,21 @@ const SectionTwo = () => {
             </button>
           </div>
         </section>
+
+        {/* <div className="lg:flex justify-between">
+          <section className="mt-8">
+            <Aside
+              title="Easily manage your guests and visitors"
+              text="Welcome your visitors and create a lasting impression with our secure visitor management feature. With a visitor management platform that supports your workplace security, you can easily identify unauthorized guests, know who is in the building in case of an emergency and much more."
+              className="mb-12 m-auto w-3/12 max-w-6xl"
+            />
+            <div className="lg:-mt-48">
+              <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
+                Sign up for free
+              </button>
+            </div>
+          </section>
+        </div> */}
 
         <section className="mt-64">
           <div className="lg:flex justify-between">
@@ -77,7 +92,7 @@ const SectionTwo = () => {
         <section className="mt-8 bg-gray border border-primary rounded-lg p-4 lg:mb-32 text-center lg:mt-72 lg:-ml-24">
           <HeaderTwo
             text="Increase employee engagement through the roof!"
-            className=" lg:mt-12 lg:text-7xl font-verybold font-bold"
+            className=" lg:mt-12 lg:text-6xl font-verybold font-extrabold leading-relaxed"
           />
           <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md my-8 text-center">
             Find out how

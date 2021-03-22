@@ -30,7 +30,7 @@ const SecureCode = () => {
             <InputTwo value="9" />
             <InputTwo value="3" />
             <Link to="/codeverified">
-              <button class="bg-primary text-white mt-8 w-full w-10/12 font-bold py-4 px-8 rounded-md">
+              <button class="bg-primary text-white mt-8 w-full font-bold py-4 px-8 rounded-md">
                 Verify Code
               </button>
             </Link>

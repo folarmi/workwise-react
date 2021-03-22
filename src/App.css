@@ -110,10 +110,30 @@
   border: 0.5px solid #0a459f;
 }
 
+.btn-border {
+  border: 1.5px solid #0a459f;
+}
+
 .secure {
   height: 16rem;
   width: 31rem;
 }
+
+.nav-links {
+  font-size: 13px;
+}
+
+.height {
+  height: 0.15rem;
+}
+
+.outline {
+  outline: none;
+}
+/* .dropdown {
+  background: url() 96% / 15% no-repeat
+    #eee;
+} */
 
 @media screen and (min-width: 1024px) {
   .button {

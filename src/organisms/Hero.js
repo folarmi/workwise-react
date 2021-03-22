@@ -13,7 +13,7 @@ const Hero = () => {
         <section className="mt-16 lg:ml-28">
           <HeaderOne
             text="Building a better workplace for everyone."
-            className="mb-4 lg:text-6xl lg:max-w-2xl"
+            className="mb-4 lg:text-6xl lg:max-w-3xl"
           />
 
           <SmallText

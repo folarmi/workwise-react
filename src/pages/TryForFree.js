@@ -24,11 +24,13 @@ const TryForFree = () => {
                 <p>
                   Password must be at least 8 characters and contain at least
                   one capital letter, one lower case letter and one number.
-                  <br className="mt-8" /> By clicking
-                  <Link className="text-primary">
-                    “Next” you agree to our Terms of Service, Privacy Policy
-                  </Link>
-                  .
+                  <br />
+                  <span className="mt-12">
+                    By clicking “Next” you agree to our <br />
+                    <Link className="text-primary">
+                      Terms of Service, Privacy Policy
+                    </Link>
+                  </span>
                 </p>
               }
               className="max-w-xs"

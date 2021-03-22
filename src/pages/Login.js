@@ -13,8 +13,8 @@ const Login = () => {
           <Navbar image={logo} />
         </div>
 
-        <div className="lg:flex">
-          <section className="mt-12 lg:ml-16">
+        <div className="lg:flex lg:m-auto lg:w-10/12">
+          <section className="mt-12 lg:ml-4">
             <LogInIntro
               text="Enter your workwise company url and your company email to gain access."
               title="Welcome Back!"
@@ -22,14 +22,14 @@ const Login = () => {
             />
           </section>
 
-          <section className="slim-border rounded-md mt-12 p-12">
+          <section className="slim-border rounded-md mt-12 p-10">
             <section className="flex items-center">
               <Input
                 label="Your company url"
                 placeholder="mentworkspace"
                 type="text"
               />
-              <p className="text-base font-semibold text-ash ml-2">
+              <p className="text-base font-semibold text-ash mt-2 ml-2">
                 .workwise.com
               </p>
             </section>
