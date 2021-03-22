@@ -16,78 +16,57 @@ const SectionTwo = () => {
       </div>
 
       <div className="lg:ml-28">
-        <section className="mt-8">
-          <div className="lg:flex justify-between">
+        <div className="grid grid-cols-2">
+          <div>
             <Aside
               title="Easily manage your guests and visitors"
               text="Welcome your visitors and create a lasting impression with our secure visitor management feature. With a visitor management platform that supports your workplace security, you can easily identify unauthorized guests, know who is in the building in case of an emergency and much more."
               className="mb-12 lg:max-w-xs"
             />
-            <div className="">
-              <img src={dashboard} alt="dashboard" className="mb-8 lg:w-full" />
-            </div>
-          </div>
-          <div className="lg:-mt-48">
             <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
               Sign up for free
             </button>
           </div>
-        </section>
+          <div>
+            <img src={dashboard} alt="dashboard" className="mb-8 lg:w-full" />
+          </div>
+        </div>
 
-        {/* <div className="lg:flex justify-between">
-          <section className="mt-8">
-            <Aside
-              title="Easily manage your guests and visitors"
-              text="Welcome your visitors and create a lasting impression with our secure visitor management feature. With a visitor management platform that supports your workplace security, you can easily identify unauthorized guests, know who is in the building in case of an emergency and much more."
-              className="mb-12 m-auto w-3/12 max-w-6xl"
-            />
-            <div className="lg:-mt-48">
-              <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
-                Sign up for free
-              </button>
-            </div>
-          </section>
-        </div> */}
-
-        <section className="mt-64">
-          <div className="lg:flex justify-between">
+        <div className="grid grid-cols-2 mt-20">
+          <div>
             <Aside
               title="Smarter room booking for everyone in your office"
               text="With the Workwise app, employees can easily find, and book meeting rooms based on amenities, locations and more."
               className="mb-12 lg:max-w-xs"
             />
-            <div className="">
-              <img
-                src={dashboard2}
-                alt="dashboard"
-                className="mb-8 lg:w-full"
-              />
-            </div>
-          </div>
-          <div className="lg:-mt-72">
             <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
               Sign up for free
             </button>
           </div>
-        </section>
+          <div>
+            <img src={dashboard2} alt="dashboard" className="mb-8 lg:w-full" />
+          </div>
+        </div>
 
-        <section className="lg:mt-80">
-          <div className="lg:flex justify-between">
+        <div className="grid grid-cols-2">
+          <div>
             <Aside
               title="Effectively manage your company mails and package deliveries"
               text="When items are delivered to your office, with the app, your receptionist area can notify the recipient to let them know that their package has arrived."
               className="mb-12 lg:max-w-xs"
             />
-            <div className="">
-              <img src={dashboardThree} alt="dashboard" className="mb-8" />
-            </div>
-          </div>
-          <div className="lg:-mt-64">
             <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
               Sign up for free
             </button>
           </div>
-        </section>
+          <div>
+            <img
+              src={dashboardThree}
+              alt="dashboard"
+              className="mb-8 lg:w-full"
+            />
+          </div>
+        </div>
 
         <section className="mt-8 bg-gray border border-primary rounded-lg p-4 lg:mb-32 text-center lg:mt-72 lg:-ml-24">
           <HeaderTwo
