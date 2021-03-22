@@ -92,7 +92,7 @@ const SectionTwo = () => {
         <section className="mt-8 bg-gray border border-primary rounded-lg p-4 lg:mb-32 text-center lg:mt-72 lg:-ml-24">
           <HeaderTwo
             text="Increase employee engagement through the roof!"
-            className=" lg:mt-12 lg:text-6xl font-verybold font-extrabold leading-relaxed"
+            className=" lg:mt-12 lg:text-6xl font-verybold font-extrabold"
           />
           <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md my-8 text-center">
             Find out how

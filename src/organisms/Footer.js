@@ -28,7 +28,7 @@ const Footer = () => {
             />
             <SmallText
               text="“Workwise” are trademarks of Workwise NG, 12 Omorinsola Drive, Lekki Phase 1, Lagos, Nigeria"
-              className="my-4 leading-relaxed"
+              className="my-4 leading-loose"
             />
             <SmallText
               text="All text, graphics, audio files, code, downloadable material, and other works on this website are the copyrighted works of Workwise NG. All Rights Reserved."
