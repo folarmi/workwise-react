@@ -16,8 +16,8 @@ const SectionTwo = () => {
       </div>
 
       <div className="lg:ml-28">
-        <div className="grid grid-cols-2">
-          <div>
+        <div className="grid grid-cols-2 lg:gap-12">
+          <div className="">
             <Aside
               title="Easily manage your guests and visitors"
               text="Welcome your visitors and create a lasting impression with our secure visitor management feature. With a visitor management platform that supports your workplace security, you can easily identify unauthorized guests, know who is in the building in case of an emergency and much more."
@@ -27,12 +27,12 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div>
+          <div className="object-contain">
             <img src={dashboard} alt="dashboard" className="mb-8 lg:w-full" />
           </div>
         </div>
 
-        <div className="grid grid-cols-2 mt-20">
+        <div className="grid grid-cols-2 mt-28">
           <div>
             <Aside
               title="Smarter room booking for everyone in your office"
@@ -48,7 +48,7 @@ const SectionTwo = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 mt-28">
           <div>
             <Aside
               title="Effectively manage your company mails and package deliveries"
@@ -68,7 +68,7 @@ const SectionTwo = () => {
           </div>
         </div>
 
-        <section className="mt-8 bg-gray border border-primary rounded-lg p-4 lg:mb-32 text-center lg:mt-72 lg:-ml-24">
+        <section className="mt-8 bg-gray border border-primary rounded-lg p-4 lg:mb-32 text-center lg:mt-28 lg:-ml-24">
           <HeaderTwo
             text="Increase employee engagement through the roof!"
             className=" lg:mt-12 lg:text-6xl font-verybold font-extrabold"

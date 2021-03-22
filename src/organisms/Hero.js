@@ -9,11 +9,11 @@ const Hero = () => {
   return (
     <div>
       <Navbar image={logo} />
-      <div className="lg:flex pb-8 lg:pb-4">
-        <section className="mt-16 lg:ml-28">
+      <div className="grid grid-cols-12">
+        <section className="mt-16 col-start-2 col-end-7">
           <HeaderOne
             text="Building a better workplace for everyone."
-            className="mb-4 lg:text-6xl lg:max-w-3xl"
+            className="mb-4 lg:text-6xl"
           />
 
           <SmallText
@@ -25,22 +25,17 @@ const Hero = () => {
             Try for free
           </button>
         </section>
-
-        <section className="mt-12 hidden lg:block lg:mt-32 ml-8">
-          <img
-            src={postcardThree}
-            alt="postcard"
-            className="w-1/2 lg:w-10/12 object-cover"
-          />
+        <section className="mt-12 hidden lg:block lg:mt-32 col-start-7 col-end-12">
+          <img src={postcardThree} alt="postcard" className="w-1/2 lg:w-full" />
           <img
             src={postcardTwo}
             alt="postcard"
-            className="w-1/2 ml-20 -mt-8 lg:w-10/12"
+            className="w-1/2 ml-20 -mt-8 lg:w-full"
           />
           <img
             src={postcard}
             alt="postcard"
-            className="w-1/2 -mt-8 ml-12 lg:w-10/12"
+            className="w-1/2 -mt-8 ml-12 lg:w-full"
           />
         </section>
       </div>
