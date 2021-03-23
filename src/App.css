@@ -130,6 +130,18 @@
 .outline {
   outline: none;
 }
+
+.circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #0a459f;
+}
+
+.picture {
+  margin-top: 4.28rem;
+}
+
 /* .dropdown {
   background: url() 96% / 15% no-repeat
     #eee;
