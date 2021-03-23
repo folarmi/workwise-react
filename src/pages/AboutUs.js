@@ -2,8 +2,9 @@ import { Footer } from "../organisms";
 import NavbarTwo from "../templates/NavbarTwo";
 import ctoTwo from "../assets/ctoTwo.png";
 import founderTwo from "../assets/founderTwo.png";
-import { Aside } from "../molecules";
+import { AboutAside } from "../molecules";
 import { SmallText } from "../atoms";
+import BlogIntro from "../templates/BlogIntro";
 
 const AboutUs = () => {
   return (
@@ -33,60 +34,72 @@ const AboutUs = () => {
           Our products create a workplace experience that powers productivity,
           enables efficiency, and is enjoyable for every employee.
         </p>
+      </section>
 
-        <section className="mt-32 bg-grey">
-          <div className="lg:flex">
-            <div>
-              <img src={founderTwo} alt="founderTwo" className="w-1/2" />
-            </div>
-            <div>
-              <Aside
-                text="Founder/CEO"
-                title="Niyi Adisa"
-                className="pt-12 lg:pt-0"
-              />
-              <SmallText
-                text="A trained business analyst with over 15 years’ experience in analysing, documenting and proposing solutions to large and complex business areas. He has been involved in numerous client projects in the healthcare, advertising, public service and financial sectors. He is adept in the process of gathering and documenting functional and user requirements."
-                className="py-4"
-              />
+      <div className="bg-gray">
+        <div className="m-auto w-10/12">
+          <section className="mt-32">
+            <div className="grid grid-cols-12 pt-24">
+              <div className="col-start-2 col-end-7">
+                <img
+                  src={founderTwo}
+                  alt="founderTwo"
+                  className="w-full rounded-lg"
+                />
+              </div>
+              <div className="col-start-8 col-end-13">
+                <AboutAside
+                  text="Founder/CEO"
+                  title="Niyi Adisa,"
+                  className="pt-12 lg:pt-0"
+                />
+                <SmallText
+                  text="A trained business analyst with over 15 years’ experience in analysing, documenting and proposing solutions to large and complex business areas. He has been involved in numerous client projects in the healthcare, advertising, public service and financial sectors. He is adept in the process of gathering and documenting functional and user requirements."
+                  className="py-4"
+                />
 
-              <SmallText
-                text="He was involved in the successful deployment of the JADE application and smart card project worth thousands of pounds across over 40
+                <SmallText
+                  text="He was involved in the successful deployment of the JADE application and smart card project worth thousands of pounds across over 40
             sites for the Central and Northwest NHS Trust, United Kingdom."
-              />
+                />
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section>
-          <div className="lg:flex justify-between">
-            <div>
-              <img
-                src={ctoTwo}
-                alt="ctoTwo"
-                className="mt-8 w-1/2 lg:w-full lg:mt-0"
-              />
-            </div>
-            <div>
-              <Aside
-                text="Chief Technology Officer"
-                title="Ilyas Farawe"
-                className="pt-12"
-              />
-              <SmallText
-                text="Ilyas is a BSc Computer Science graduate from Babcock University. He has experience in developing software products for private and government agencies. He was
+          <section>
+            <div className="grid grid-cols-12 pb-24 mt-16">
+              <div className="col-start-2 col-end-7">
+                <img
+                  src={ctoTwo}
+                  alt="ctoTwo"
+                  className=" w-1/2 lg:w-full lg:mt-0"
+                />
+              </div>
+              <div className="col-start-8 col-end-13">
+                <AboutAside
+                  text="Chief Technology Officer"
+                  title="Ilyas Farawe,"
+                  className="pt-12"
+                />
+                <SmallText
+                  text="Ilyas is a BSc Computer Science graduate from Babcock University. He has experience in developing software products for private and government agencies. He was
                 involved in developing a budget allocation tracker at NNPC, a self-assessment platform for Covid-19 used by Oyo State Ministry of Health, Vehicle Licensing Application and Plate
                 number verification portal used in Oyo State. "
-                className="py-4"
-              />
-              <SmallText
-                text=" He was also involved in the development of a complaints management system for ICECONNECTER. He is a tech enthusiast and engineering
+                  className="py-4"
+                />
+                <SmallText
+                  text=" He was also involved in the development of a complaints management system for ICECONNECTER. He is a tech enthusiast and engineering
                 lead at Techbarn."
-              />
+                />
+              </div>
             </div>
-          </div>
-        </section>
-      </section>
+          </section>
+        </div>
+      </div>
+
+      <div className="m-auto w-9/12">
+        <BlogIntro />
+      </div>
       <Footer />
     </section>
   );

@@ -1,8 +1,6 @@
 import { Aside } from "../molecules";
-import founder from "../assets/founder.png";
 import ctoTwo from "../assets/ctoTwo.png";
 import founderTwo from "../assets/founderTwo.png";
-import cto from "../assets/cto.png";
 import { Link } from "react-router-dom";
 import TeamImage from "../templates/TeamImage";
 

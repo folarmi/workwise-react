@@ -4,10 +4,10 @@ import ios from "../assets/iosStore.png";
 import { SmallText } from "../atoms";
 import { SectionWrapper } from "../layout/SectionWrapper";
 import { Link } from "react-router-dom";
-// import facebook from "../assets/facebook.png";
-// import twitter from "../assets/twitter.png";
-// import instagram from "../assets/instagram.png";
-// import linkedin from "../assets/linkedin.png";
+import facebook from "../assets/facebook.png";
+import twitter from "../assets/twitter.png";
+import instagram from "../assets/instagram.png";
+import linkedin from "../assets/linkedin.png";
 
 const Footer = () => {
   return (
@@ -36,7 +36,7 @@ const Footer = () => {
             />
             <SmallText
               text="Any unauthorized redistribution or reproduction of any copyrighted materials on this website is strictly prohibited. Other product and company names are trademarks of their respective owners. This website contains simulated images; actual appearance may vary."
-              className="my-4 leading-relaxed"
+              className="my-6 leading-relaxed"
             />
           </section>
 
@@ -62,7 +62,7 @@ const Footer = () => {
                   <img
                     src={playStore}
                     alt="playStore"
-                    className="w-1/4 lg:w-10/12 mb-2 -ml-2 object-cover lg:mt-12"
+                    className="w-1/4 lg:w-10/12 mb-2 -ml-2 object-cover lg:mt-8"
                   />
                   <img
                     src={ios}
@@ -134,17 +134,23 @@ const Footer = () => {
               </section>
             </div>
 
-            {/* <section className="lg:flex lg:justify-between">
-              <p className="font-bold mb-4">Privacy Policy</p>
-              <SmallText>Privacy Policy</SmallText>
-              <p>Terms of Service</p>
-              <div className="flex justify-between">
-                <img src={facebook} alt="facebook" className="object-cover" />
-                <img src={twitter} alt="twitter" />
-                <img src={linkedin} alt="linkedin" />
-                <img src={instagram} alt={instagram} />
+            <section className="lg:flex lg:items-center mt-4">
+              <p className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-4">
+                Privacy Policy
+              </p>
+              <p className="font-verybold font-black text-4xl lg:-mt-6 text-lightBlack leading-relaxed mr-4">
+                .
+              </p>
+              <p className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-24">
+                Terms of Service
+              </p>
+              <div className="flex">
+                <img src={facebook} alt="facebook" className="mr-2" />
+                <img src={twitter} alt="twitter" className="mr-2" />
+                <img src={linkedin} alt="linkedin" className="mr-2" />
+                <img src={instagram} alt="instagram" />
               </div>
-            </section> */}
+            </section>
           </div>
         </div>
       </div>
