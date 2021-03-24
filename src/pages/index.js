@@ -13,3 +13,5 @@ export * from "./YourCompany";
 export * from "./RequestDemo";
 export * from "./TermsOfService";
 export * from "./Blog";
+export * from "./DataSecurity";
+export * from "./BlogArticle";

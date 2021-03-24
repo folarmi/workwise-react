@@ -12,9 +12,7 @@ import linkedin from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <SectionWrapper>
-      <div className="mt-20">
-        <hr />
-
+      <div className="mt-20 border-t border-lightBlack">
         <div className="lg:flex lg:mb-16 lg:justify-between">
           <section className="lg:max-w-lg">
             <img

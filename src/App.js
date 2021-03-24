@@ -16,6 +16,7 @@ import {
   RequestDemo,
   TermsOfService,
   Blog,
+  BlogArticle,
 } from "./pages";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/requestdemo" exact component={RequestDemo} />
           <Route path="/termsofservice" exact component={TermsOfService} />
           <Route path="/blog" exact component={Blog} />
+          <Route path="/blogarticle" exact component={BlogArticle} />
         </div>
       </Switch>
     </Router>

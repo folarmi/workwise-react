@@ -17,7 +17,7 @@ const BlogIntro = () => {
               Workwise raises $100m Series A funding from Salesforce.
             </p>
             <Link
-              to="/blog"
+              to="/blogarticle"
               className="text-primary underline text-base font-semibold"
             >
               Read full article

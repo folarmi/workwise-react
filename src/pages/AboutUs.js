@@ -16,21 +16,21 @@ const AboutUs = () => {
           our Company through the Workwise brand is to make every employee in
           the workplace productive and efficient.
         </p>
-        <p className="text-sm leading-relaxed text-black my-4">
+        <p className="text-sm leading-relaxed text-lightBlack my-4">
           The Workwise platform integrates with your workplace giving you and
           everyone in your organization a simple and seamless way to operate the
           workplace and its resources, and it helps improve company wide
           communication so that you can keep everyone informed and focused on
           what's important—your tasks/goals.
         </p>
-        <p className="text-sm leading-relaxed text-black my-4">
+        <p className="text-sm leading-relaxed text-lightBlack my-4">
           We build smart tools to create a workplace experience that powers
           productivity, enables efficiency and is enjoyable for every employee.
           Our mission is to increase workplace productivity by freeing up
           valuable employee time, which is otherwise spent on routine workplace
           tasks.
         </p>
-        <p className="text-sm leading-relaxed text-black my-4">
+        <p className="text-sm leading-relaxed text-lightBlack my-4">
           Our products create a workplace experience that powers productivity,
           enables efficiency, and is enjoyable for every employee.
         </p>
@@ -99,7 +99,7 @@ const AboutUs = () => {
 
       <section className="my-28 m-auto w-8/12">
         <Aside title="Say hi" />
-        <p className="text-sm font-verybold font-bold text-lightBlack mt-4 mb-6">
+        <p className="text-sm font-verybold font-bold text-lightlightBlack mt-4 mb-6">
           Headquarters
         </p>
         <p className="text-sm mb-10">

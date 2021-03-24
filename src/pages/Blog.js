@@ -52,7 +52,7 @@ const Blog = () => {
           </div>
         </section>
 
-        <section className="lg:grid grid-cols-8 gap-10 mb-8">
+        <section className="lg:grid grid-cols-8 gap-10 mb-28">
           <div className="col-start-1 col-end-5">
             <BlogPost />
           </div>
