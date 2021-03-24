@@ -141,9 +141,11 @@ const Footer = () => {
               <p className="font-verybold font-black text-4xl lg:-mt-6 text-lightBlack leading-relaxed mr-4">
                 .
               </p>
-              <p className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-24">
-                Terms of Service
-              </p>
+              <Link to="/termsofservice">
+                <p className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-24">
+                  Terms of Service
+                </p>
+              </Link>
               <div className="flex">
                 <img src={facebook} alt="facebook" className="mr-2" />
                 <img src={twitter} alt="twitter" className="mr-2" />

@@ -11,3 +11,4 @@ export * from "./CodeVerified";
 export * from "./TryForFree";
 export * from "./YourCompany";
 export * from "./RequestDemo";
+export * from "./TermsOfService";
