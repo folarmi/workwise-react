@@ -2,7 +2,7 @@ import { Footer } from "../organisms";
 import NavbarTwo from "../templates/NavbarTwo";
 import ctoTwo from "../assets/ctoTwo.png";
 import founderTwo from "../assets/founderTwo.png";
-import { AboutAside } from "../molecules";
+import { AboutAside, Aside } from "../molecules";
 import { SmallText } from "../atoms";
 import BlogIntro from "../templates/BlogIntro";
 
@@ -11,7 +11,7 @@ const AboutUs = () => {
     <section>
       <NavbarTwo text=" About Us" />
       <section className="m-auto w-8/12 mt-40">
-        <p className="text-primary text-2xl font-normal leading-relaxed mb-8">
+        <p className="text-primary text-xl font-normal leading-relaxed mb-8">
           The Workwise brand was designed and developed in 2019. The vision of
           our Company through the Workwise brand is to make every employee in
           the workplace productive and efficient.
@@ -97,7 +97,20 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="m-auto w-9/12">
+      <section className="my-28 m-auto w-8/12">
+        <Aside title="Say hi" />
+        <p className="text-sm font-verybold font-bold text-lightBlack mt-4 mb-6">
+          Headquarters
+        </p>
+        <p className="text-sm mb-10">
+          12 Omorinsola John Drive, Lekki Phase 1, <br /> Lagos, Nigeria.
+        </p>
+        <p className="text-sm font-verybold font-bold text-lightBlack">
+          info@workwise.ng
+        </p>
+      </section>
+
+      <div className="m-auto w-8/12">
         <BlogIntro />
       </div>
       <Footer />

@@ -1,6 +1,5 @@
 import { SectionWrapper } from "../layout/SectionWrapper";
 import Navbar from "../templates/Navbar";
-import logo from "../assets/Group.png";
 import Input from "../templates/Input";
 import { Footer } from "../organisms";
 import TextArea from "../templates/TextArea";
@@ -9,7 +8,7 @@ const ContactUs = () => {
   return (
     <div>
       <SectionWrapper>
-        <Navbar image={logo} />
+        <Navbar />
       </SectionWrapper>
 
       <section className="">

@@ -1,14 +1,13 @@
 import postcard from "../assets/postCard.png";
 import postcardTwo from "../assets/postCardTwo.png";
 import postcardThree from "../assets/postCardThree.png";
-import logo from "../assets/Group.png";
 import { HeaderOne, SmallText } from "../atoms";
 import Navbar from "../templates/Navbar";
 
 const Hero = () => {
   return (
     <div>
-      <Navbar image={logo} />
+      <Navbar />
       <div className="grid grid-cols-12">
         <section className="mt-16 col-start-2 col-end-7">
           <HeaderOne

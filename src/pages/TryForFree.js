@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/Group.png";
 import { SectionWrapper } from "../layout/SectionWrapper";
 import { LogInIntro } from "../molecules";
 import Input from "../templates/Input";
@@ -9,7 +8,7 @@ const TryForFree = () => {
   return (
     <div>
       <SectionWrapper>
-        <Navbar image={logo} />
+        <Navbar />
 
         <div className="lg:mt-12 lg:flex mb-24">
           <section className="lg:ml-24 lg:mr-64">
