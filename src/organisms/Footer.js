@@ -121,9 +121,11 @@ const Footer = () => {
                   <li>
                     <SmallText text="Careers" className="font-bold mb-4" />
                   </li>
-                  <li>
-                    <SmallText text="Blog" className="font-bold mb-4" />
-                  </li>
+                  <Link to="/blog">
+                    <li>
+                      <SmallText text="Blog" className="font-bold mb-4" />
+                    </li>
+                  </Link>
                   <li>
                     <SmallText
                       text="Data Security"
