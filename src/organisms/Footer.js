@@ -124,12 +124,14 @@ const Footer = () => {
                       <SmallText text="Blog" className="font-bold mb-4" />
                     </li>
                   </Link>
-                  <li>
-                    <SmallText
-                      text="Data Security"
-                      className="font-bold mb-4"
-                    />
-                  </li>
+                  <Link to="datasecurity">
+                    <li>
+                      <SmallText
+                        text="Data Security"
+                        className="font-bold mb-4"
+                      />
+                    </li>
+                  </Link>
                 </ul>
               </section>
             </div>

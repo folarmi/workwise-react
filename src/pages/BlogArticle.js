@@ -21,7 +21,7 @@ const BlogArticle = () => {
             Donec eu fringilla lorem. Curabitur quis velit in magna tincidunt
             maximus. Nam tincidunt ante eget orci porta, ut elementum massa
             aliquam. Mauris mattis, velit ullamcorper malesuada pharetra, lacus
-            diam dapibus neque, vel aliquam augue lorem id tortor.{" "}
+            diam dapibus neque, vel aliquam augue lorem id tortor.
           </p>
           <p className="text-sm leading-relaxed text-lightBlack my-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est

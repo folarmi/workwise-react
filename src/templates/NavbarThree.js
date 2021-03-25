@@ -4,7 +4,7 @@ import logo from "../assets/Group.png";
 // import logoWhite from "../assets/logoWhite.png";
 import { SectionWrapper } from "../layout/SectionWrapper";
 
-const NavbarThree = ({ buttonText, path, text }) => {
+const NavbarThree = ({ buttonText, path, text, className }) => {
   return (
     <section className="bg-primary mx-auto lg:pl-8 pl-4 pt-4 pb-12 pr-4">
       <SectionWrapper>
@@ -56,7 +56,9 @@ const NavbarThree = ({ buttonText, path, text }) => {
             <div></div>
           </section>
         </div>
-        <p className="text-center text-6xl text-white font-thin leading-snug pt-12 pb-4">
+        <p
+          className={`text-center text-6xl text-white font-thin leading-snug pt-12 pb-4 ${className}`}
+        >
           {text}
         </p>
         <Link to={path}>

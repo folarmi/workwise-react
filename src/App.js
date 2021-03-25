@@ -17,6 +17,7 @@ import {
   TermsOfService,
   Blog,
   BlogArticle,
+  DataSecurity,
 } from "./pages";
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route path="/termsofservice" exact component={TermsOfService} />
           <Route path="/blog" exact component={Blog} />
           <Route path="/blogarticle" exact component={BlogArticle} />
+          <Route path="/datasecurity" exact component={DataSecurity} />
         </div>
       </Switch>
     </Router>
