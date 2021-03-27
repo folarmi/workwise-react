@@ -146,6 +146,14 @@
   margin-top: 30rem;
 }
 
+.slim-ash-border {
+  border: 0.5px solid #808080;
+}
+
+.career-width {
+  width: 48%;
+}
+
 @media screen and (min-width: 1024px) {
   .button {
     margin-left: 32rem;

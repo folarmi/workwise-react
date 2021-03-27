@@ -18,6 +18,7 @@ import {
   Blog,
   BlogArticle,
   DataSecurity,
+  Careers,
 } from "./pages";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path="/blog" exact component={Blog} />
           <Route path="/blogarticle" exact component={BlogArticle} />
           <Route path="/datasecurity" exact component={DataSecurity} />
+          <Route path="/careers" exact component={Careers} />
         </div>
       </Switch>
     </Router>

@@ -15,3 +15,4 @@ export * from "./TermsOfService";
 export * from "./Blog";
 export * from "./DataSecurity";
 export * from "./BlogArticle";
+export * from "./Careers";

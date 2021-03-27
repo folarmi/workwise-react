@@ -12,6 +12,7 @@ module.exports = {
         lightAsh: "7490BA",
         ashTwo: "#c4c4c4",
         lightBlack: "#1a1a1a",
+        ashOne: "#808080",
       },
     },
     fontFamily: {
