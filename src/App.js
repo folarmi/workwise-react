@@ -19,6 +19,8 @@ import {
   BlogArticle,
   DataSecurity,
   Careers,
+  VisitorManagement,
+  PrivacyPolicy,
 } from "./pages";
 
 function App() {
@@ -44,6 +46,12 @@ function App() {
           <Route path="/blogarticle" exact component={BlogArticle} />
           <Route path="/datasecurity" exact component={DataSecurity} />
           <Route path="/careers" exact component={Careers} />
+          <Route path="/privacy-policy" exact component={PrivacyPolicy} />
+          <Route
+            path="/visitor-management"
+            exact
+            component={VisitorManagement}
+          />
         </div>
       </Switch>
     </Router>

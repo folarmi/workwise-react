@@ -139,9 +139,12 @@ const Footer = () => {
             </div>
 
             <section className="lg:flex lg:items-center mt-4">
-              <p className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-4">
+              <Link
+                to="/privacy-policy"
+                className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-4"
+              >
                 Privacy Policy
-              </p>
+              </Link>
               <p className="font-verybold font-black text-4xl lg:-mt-6 text-lightBlack leading-relaxed mr-4">
                 .
               </p>
