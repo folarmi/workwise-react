@@ -3,14 +3,9 @@ import { Link } from "react-router-dom";
 import logo from "../assets/Group.png";
 // import logoWhite from "../assets/logoWhite.png";
 import { SectionWrapper } from "../layout/SectionWrapper";
-import { useState } from "react";
+import { Dropdown } from "../atoms";
 
 const NavbarTwo = ({ text, element }) => {
-  const [showDropDown, setShowDropDown] = useState(false);
-  const toggleDropdown = () => {
-    setShowDropDown(!showDropDown);
-  };
-
   return (
     <section className="bg-primary mx-auto lg:pl-8 pl-4 pt-4 pb-12 pr-4">
       <SectionWrapper>
@@ -22,37 +17,7 @@ const NavbarTwo = ({ text, element }) => {
           </div>
           <section className="hidden lg:block lg:-ml-32">
             <ul className="flex items-center text-white">
-              <div
-                to="products"
-                className="cursor-pointer"
-                onClick={toggleDropdown}
-              >
-                <li className="nav-links font-verybold font-semibold mr-8">
-                  Products
-                </li>
-                {showDropDown ? (
-                  <div className="mt-2 absolute w-44 bg-white shadow-lg rounded-lg p-4">
-                    <ul className="">
-                      <li className="nav-links text-lightBlack text-base font-verybold font-semibold mb-4">
-                        Workwise
-                      </li>
-                      <Link to="visitor-management">
-                        <li className="nav-links text-lightBlack font-verybold font-semibold mb-4">
-                          Visitor management
-                        </li>
-                      </Link>
-                      <li className="nav-links text-lightBlack font-verybold font-semibold mb-4">
-                        Meeting Rooms
-                      </li>
-                      <li className="nav-links text-lightBlack font-verybold font-semibold">
-                        Employee clock-in
-                      </li>
-                    </ul>
-                  </div>
-                ) : (
-                  ""
-                )}
-              </div>
+              <Dropdown />
               <Link to="hardware">
                 <li className="nav-links font-verybold font-semibold mr-8">
                   Hardware

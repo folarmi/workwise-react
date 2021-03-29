@@ -1,13 +1,9 @@
 import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import logo from "../assets/Group.png";
-import { useState } from "react";
+import { Dropdown } from "../atoms";
 
 const Navbar = () => {
-  const [showDropDown, setShowDropDown] = useState(false);
-  const toggleDropdown = () => {
-    setShowDropDown(!showDropDown);
-  };
   return (
     <div className="object-cover flex items-center justify-between ">
       <div className="lg:flex lg:items-center">
@@ -16,54 +12,24 @@ const Navbar = () => {
         </Link>
         <section className="hidden lg:block lg:-ml-32">
           <ul className="flex items-center text-lightBlack">
-            <div
-              to="products"
-              className="cursor-pointer relative"
-              onClick={toggleDropdown}
-            >
-              <li className="nav-links text-lightBlack font-verybold font-semibold mr-10">
-                Products
-              </li>
-              {showDropDown ? (
-                <div className="mt-2 absolute w-44 bg-white shadow-lg rounded-lg p-4">
-                  <ul className="">
-                    <li className="nav-links text-lightBlack text-base font-verybold font-semibold mb-4">
-                      Workwise
-                    </li>
-                    <Link to="visitor-management">
-                      <li className="nav-links text-lightBlack font-verybold font-semibold mb-4">
-                        Visitor management
-                      </li>
-                    </Link>
-                    <li className="nav-links text-lightBlack font-verybold font-semibold mb-4">
-                      Meeting Rooms
-                    </li>
-                    <li className="nav-links text-lightBlack font-verybold font-semibold">
-                      Employee clock-in
-                    </li>
-                  </ul>
-                </div>
-              ) : (
-                ""
-              )}
-            </div>
+            <Dropdown />
             <Link to="hardware">
-              <li className="nav-links text-lightBlack font-verybold font-semibold mr-10">
+              <li className="nav-links font-verybold font-semibold mr-10">
                 Hardware
               </li>
             </Link>
             <Link to="learn">
-              <li className="nav-links text-lightBlack font-verybold font-semibold mr-10">
+              <li className="nav-links font-verybold font-semibold mr-10">
                 Learn
               </li>
             </Link>
             <Link to="pricing">
-              <li className="nav-links text-lightBlack font-verybold font-semibold mr-10">
+              <li className="nav-links  font-verybold font-semibold mr-10">
                 Pricing
               </li>
             </Link>
             <Link to="contact">
-              <li className="nav-links text-lightBlack font-verybold font-semibold mr-20">
+              <li className="nav-links  font-verybold font-semibold mr-20">
                 Contact Us
               </li>
             </Link>

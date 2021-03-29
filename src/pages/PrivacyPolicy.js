@@ -193,7 +193,7 @@ const PrivacyPolicy = () => {
             outlined above, you can contact us at <br /> hi@workwise.com.
           </p>
           <p className="text-sm leading-relaxed text-lightBlack mt-6">
-            Workwise NG, <br /> 34, Herbert Caucaluy Drive, <br /> Lekki Phase
+            Workwise NG, <br /> 34, Herbert Maucaluy Drive, <br /> Lekki Phase
             1, Lagos, <br />
             Nigeria.
           </p>

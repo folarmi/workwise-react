@@ -154,6 +154,10 @@
   width: 48%;
 }
 
+.meeting-icon {
+  width: 12%;
+}
+
 @media screen and (min-width: 1024px) {
   .button {
     margin-left: 32rem;

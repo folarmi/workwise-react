@@ -10,6 +10,9 @@ import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <SectionWrapper>
       <div className="mt-20 border-t border-lightBlack">
@@ -45,13 +48,13 @@ const Footer = () => {
                   Products
                 </p>
                 <ul>
-                  <li>
+                  <li onClick={scrollToTop}>
                     <SmallText
                       text="Visitor Management"
                       className="font-bold my-2"
                     />
                   </li>
-                  <li>
+                  <li onClick={scrollToTop}>
                     <SmallText
                       text="Meeting Rooms"
                       className="font-bold mb-4"
@@ -75,26 +78,28 @@ const Footer = () => {
                 </p>
                 <ul>
                   <Link to="/requestdemo">
-                    <li>
+                    <li onClick={scrollToTop}>
                       <SmallText
                         text="Request Demo"
                         className="font-bold mb-4"
                       />
                     </li>
                   </Link>
-                  <li>
+                  <li onClick={scrollToTop}>
                     <SmallText text="Pricing" className="font-bold mb-4" />
                   </li>
-                  <li>
+                  <li onClick={scrollToTop}>
                     <SmallText text="Support" className="font-bold mb-4" />
                   </li>
-                  <li>
-                    <SmallText text="Hardware" className="font-bold mb-4" />
-                  </li>
-                  <li>
+                  <Link to="/hardware">
+                    <li onClick={scrollToTop}>
+                      <SmallText text="Hardware" className="font-bold mb-4" />
+                    </li>
+                  </Link>
+                  <li onClick={scrollToTop}>
                     <SmallText text="Learn" className="font-bold mb-4" />
                   </li>
-                  <li>
+                  <li onClick={scrollToTop}>
                     <SmallText text="Support" className="font-bold mb-4" />
                   </li>
                 </ul>
@@ -106,28 +111,30 @@ const Footer = () => {
                 </p>
                 <ul>
                   <Link to="aboutus">
-                    <li>
+                    <li onClick={scrollToTop}>
                       <SmallText text="About Us" className="font-bold mb-4" />
                     </li>
                   </Link>
-                  <li>
-                    <SmallText text="Contact US" className="font-bold mb-4" />
-                  </li>
-                  <li>
+                  <Link to="/contact">
+                    <li onClick={scrollToTop}>
+                      <SmallText text="Contact Us" className="font-bold mb-4" />
+                    </li>
+                  </Link>
+                  <li onClick={scrollToTop}>
                     <SmallText text="Support" className="font-bold mb-4" />
                   </li>
                   <Link to="/careers">
-                    <li>
+                    <li onClick={scrollToTop}>
                       <SmallText text="Careers" className="font-bold mb-4" />
                     </li>
                   </Link>
                   <Link to="/blog">
-                    <li>
+                    <li onClick={scrollToTop}>
                       <SmallText text="Blog" className="font-bold mb-4" />
                     </li>
                   </Link>
                   <Link to="datasecurity">
-                    <li>
+                    <li onClick={scrollToTop}>
                       <SmallText
                         text="Data Security"
                         className="font-bold mb-4"
@@ -142,13 +149,14 @@ const Footer = () => {
               <Link
                 to="/privacy-policy"
                 className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-4"
+                onClick={scrollToTop}
               >
                 Privacy Policy
               </Link>
               <p className="font-verybold font-black text-4xl lg:-mt-6 text-lightBlack leading-relaxed mr-4">
                 .
               </p>
-              <Link to="/termsofservice">
+              <Link to="/termsofservice" onClick={scrollToTop}>
                 <p className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-24">
                   Terms of Service
                 </p>
