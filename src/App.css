@@ -163,6 +163,19 @@
   top: 869px;
 }
 
+/* .grider {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: auto;
+}
+
+.grider .halfwidth {
+  grid-column: 2/6;
+}
+
+.grider .fullwidth {
+  grid-column: 7 / -1;
+} */
 /* .group-border {
   outline: 0.14px solid #808080;
   outline-offset: -30px;

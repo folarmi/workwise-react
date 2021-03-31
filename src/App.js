@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <div className="overflow font-sans">
+        <div className="overflow-hidden font-sans">
           <Route path="/" exact component={Home} />
           <Route path="/login" exact component={Login} />
           <Route path="/aboutus" exact component={AboutUs} />

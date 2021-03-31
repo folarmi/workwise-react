@@ -3,6 +3,7 @@ import postcardTwo from "../assets/postCardTwo.png";
 import postcardThree from "../assets/postCardThree.png";
 import { HeaderOne, SmallText } from "../atoms";
 import Navbar from "../templates/Navbar";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -23,10 +24,14 @@ const Hero = () => {
             text="We empower productivity and the overall well-being of employees, while fostering an inclusive workplace community."
             className="my-4 pt-4 lg:max-w-sm text-lightBlack"
           />
-
-          <button class="bg-primary outline-none mt-4 text-white text-xs font-bold py-4 px-10 rounded-md">
+          <Link to="/tryforfree">
+            <button class="bg-primary focus:outline-none text-white nav-links font-verybold font-medium py-4 px-8 rounded-md">
+              Try for free
+            </button>
+          </Link>
+          {/* <button class="bg-primary outline-none mt-4 text-white text-xs font-bold py-4 px-10 rounded-md">
             Try for free
-          </button>
+          </button> */}
         </section>
         <section className="mt-12 hidden lg:block col-start-8 col-end-12 lg:-ml-4 mb-4">
           <img src={postcardThree} alt="postcard" className="w-1/2 lg:w-full" />

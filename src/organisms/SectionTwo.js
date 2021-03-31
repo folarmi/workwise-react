@@ -4,12 +4,13 @@ import dashboard2 from "../assets/dashboard2.png";
 import dashboardThree from "../assets/dashboardThree.png";
 import { Aside } from "../molecules";
 import { SectionWrapper } from "../layout/SectionWrapper";
+import svg from "../assets/svg.svg";
 
 const SectionTwo = () => {
   return (
     <div>
       <SectionWrapper>
-        <div className="mt-20">
+        <div className="mt-64">
           <HeaderTwo
             text="Secure tools to help you run the workplace."
             className="text-center lg:text-7xl lg:max-w-4xl lg:my-32 font-verybold font-bold lg:ml-44"
@@ -33,8 +34,8 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div className="col-start-7 col-end-13">
-            <img src={dashboard} alt="dashboard" className="mb-8" />
+          <div className="col-start-7 col-end-13 -mr-16">
+            <img src={svg} alt="dashboard" className="mb-8" />
           </div>
         </div>
 
@@ -53,7 +54,7 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div className="col-start-7 col-end-13">
+          <div className="col-start-7 col-end-13 -mr-16">
             <img src={dashboard2} alt="dashboard" className="mb-8 lg:w-full" />
           </div>
         </div>
@@ -69,7 +70,7 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div className="col-start-7 col-end-13">
+          <div className="col-start-7 col-end-13 -mr-16">
             <img
               src={dashboardThree}
               alt="dashboard"

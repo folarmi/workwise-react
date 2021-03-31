@@ -12,7 +12,7 @@ const SectionOne = () => {
             <img
               src={iPhone}
               alt="iphone"
-              className="object-cover lg:w-8/12 lg:z-10 lg:-mt-12"
+              className="object-cover lg:w-8/12 lg:z-20 lg:-mt-12"
             />
             <div className="lg:mt-20">
               <Aside

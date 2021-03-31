@@ -13,7 +13,7 @@ const Navbar = () => {
         </Link>
 
         <nav>
-          <ul className="hidden lg:flex items-center overflow-hidden lg:justify-between text-lightBlack">
+          <ul className="hidden lg:flex items-center overflow-hidden text-lightBlack">
             <Dropdown />
             {NavbarData.map((item, index) => {
               return (
@@ -25,18 +25,25 @@ const Navbar = () => {
                 </li>
               );
             })}
-            <Link to="/login">
-              <button class="bg-white focus:outline-none text-primary border border-primary font-extrabold text-sm py-4 px-12 font-verybold mr-4 rounded-md">
-                Log in
-              </button>
-            </Link>
-            <Link to="/tryforfree">
-              <button class="bg-primary focus:outline-none text-white nav-links font-verybold font-semibold py-4 px-8 rounded-md">
-                Try for free
-              </button>
-            </Link>
           </ul>
         </nav>
+        <ul>
+          <Link to="/login">
+            <button class="bg-white focus:outline-none text-primary border border-primary font-medium text-xs py-4 px-14 font-verybold mr-4 rounded-md">
+              Log in
+            </button>
+          </Link>
+          <Link to="/tryforfree">
+            <button class="bg-primary outline-none mt-4 text-white text-xs font-medium py-4 px-10 rounded-md">
+              Try for free
+            </button>
+          </Link>
+          {/* <Link to="/tryforfree">
+            <button class="bg-primary focus:outline-none text-white nav-links font-verybold font-medium py-4 px-8 rounded-md">
+              Try for free
+            </button>
+          </Link> */}
+        </ul>
       </header>
       <Sidebar />
     </div>
