@@ -9,22 +9,26 @@ const Hero = () => {
     <div>
       <Navbar />
       <div className="grid grid-cols-12">
-        <section className="mt-16 col-start-2 col-end-7">
+        <section className="col-start-2 col-end-8">
           <HeaderOne
-            text="Building a better workplace for everyone."
-            className="mb-4 lg:text-6xl"
+            text={
+              <p>
+                Building a <br /> better workplace for everyone
+              </p>
+            }
+            className="mb-4 lg:text-6xl test"
           />
 
           <SmallText
             text="We empower productivity and the overall well-being of employees, while fostering an inclusive workplace community."
-            className="my-4 pt-4 lg:max-w-sm"
+            className="my-4 pt-4 lg:max-w-sm text-lightBlack"
           />
 
-          <button class="bg-primary outline-none mt-4 text-white text-sm font-bold py-4 px-12 rounded-md">
+          <button class="bg-primary outline-none mt-4 text-white text-xs font-bold py-4 px-10 rounded-md">
             Try for free
           </button>
         </section>
-        <section className="mt-12 hidden lg:block lg:mt-32 col-start-7 col-end-12">
+        <section className="mt-12 hidden lg:block col-start-8 col-end-12 lg:-ml-4 mb-4">
           <img src={postcardThree} alt="postcard" className="w-1/2 lg:w-full" />
           <img
             src={postcardTwo}
@@ -34,7 +38,7 @@ const Hero = () => {
           <img
             src={postcard}
             alt="postcard"
-            className="w-1/2 -mt-8 ml-12 lg:w-full"
+            className="w-1/2 -mt-8 ml-4 lg:w-full"
           />
         </section>
       </div>

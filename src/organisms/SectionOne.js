@@ -16,7 +16,11 @@ const SectionOne = () => {
             />
             <div className="lg:mt-20">
               <Aside
-                title="Run your workplace with Workwise"
+                title={
+                  <p>
+                    Run your workplace <br /> with Workwise
+                  </p>
+                }
                 text="The Workwise platform integrates with your workplace giving you and everyone in your organization a simple and seamless way to operate the workplace and its resources, and it
 helps improve company wide communication so that you can keep everyone informed and focused on what's important—your tasks/goals."
                 className="lg:max-w-sm"

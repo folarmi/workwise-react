@@ -5,7 +5,7 @@ const Reason = () => {
   return (
     <div className="bg-white lg:-mt-16">
       <SectionWrapper>
-        <div className="mt-8 lg:flex lg:-mt-28 lg:ml-16">
+        <div className="mt-8 lg:flex lg:-mt-28 lg:ml-16 relative">
           <div className="slim-border rounded-r-none rounded-l-md mt-4 p-8 bg-white">
             <SmallText
               text="Enhance Employee Experience"

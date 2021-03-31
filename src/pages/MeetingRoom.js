@@ -54,7 +54,7 @@ const MeetingRoom = () => {
             Get Started
           </button>
         </div>
-        <div className="col-start-7 col-end-13 rounded-lg">
+        <div className="col-start-7 col-end-13">
           <img src={privateDashboard} alt="privateDashboard" />
         </div>
       </div>

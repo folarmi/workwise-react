@@ -7,14 +7,20 @@ import TeamImage from "../templates/TeamImage";
 const SectionThree = () => {
   return (
     <div className="bg-gray pt-12 pb-8 lg:mt-12 lg:flex lg:flex-row-reverse lg:justify-between">
-      <div className="lg:mr-36 lg:mt-12">
+      <div className="lg:mr-28 lg:mt-16">
         <Aside
           title="Meet Our Team"
-          text="We’re a team of innovators with deep expertise in Human Resource, Product Design, Business Process and Tech, backed by some of the finest talents in the country."
+          text={
+            <p>
+              We’re a team of innovators with deep expertise in Human Resource,
+              Product Design, Business Process and Tech, <br /> backed by some
+              of the finest talents in the country.
+            </p>
+          }
           className="lg:mt-16 lg:max-w-md"
         />
         <Link to="/aboutus">
-          <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md my-8 text-center">
+          <button class="bg-primary text-white text-xs font-bold py-4 px-12 rounded-md my-8 text-center">
             Learn More
           </button>
         </Link>

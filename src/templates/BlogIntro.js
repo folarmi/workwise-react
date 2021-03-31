@@ -13,12 +13,12 @@ const BlogIntro = () => {
       <section className="mb-12">
         <div className="relative">
           <div className="absolute top-4 left-4 p-4 ml-4 mt-4 bg-white rounded-md h-52 w-44">
-            <p className="text-black font-extrabold mb-12">
+            <p className="text-lightBlack text-md font-verybold font-bold mb-12">
               Workwise raises $100m Series A funding from Salesforce.
             </p>
             <Link
               to="/blogarticle"
-              className="text-primary underline text-base font-semibold"
+              className="text-primary underline text-sm font-verybold font-bold"
             >
               Read full article
             </Link>
@@ -32,12 +32,12 @@ const BlogIntro = () => {
 
         <div className="relative">
           <div className="absolute top-4 left-4 p-4 ml-4 mt-4 bg-white rounded-md h-52 w-44">
-            <p className="text-black font-extrabold mb-12">
+            <p className="text-lightBlack text-md font-verybold font-bold mb-12">
               Hermann Powe joins Workwise as new Head of Design
             </p>
             <Link
               to="/blog"
-              className="text-primary underline text-base font-semibold"
+              className="text-primary underline text-sm font-verybold font-bold"
             >
               Read full article
             </Link>

@@ -158,6 +158,16 @@
   width: 12%;
 }
 
+.test {
+  left: 213.26px;
+  top: 869px;
+}
+
+/* .group-border {
+  outline: 0.14px solid #808080;
+  outline-offset: -30px;
+} */
+
 @media screen and (min-width: 1024px) {
   .button {
     margin-left: 32rem;
