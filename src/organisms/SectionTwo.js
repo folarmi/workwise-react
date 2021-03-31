@@ -4,7 +4,6 @@ import dashboard2 from "../assets/dashboard2.png";
 import dashboardThree from "../assets/dashboardThree.png";
 import { Aside } from "../molecules";
 import { SectionWrapper } from "../layout/SectionWrapper";
-import svg from "../assets/svg.svg";
 
 const SectionTwo = () => {
   return (
@@ -30,12 +29,12 @@ const SectionTwo = () => {
               text="Welcome your visitors and create a lasting impression with our secure visitor management feature. With a visitor management platform that supports your workplace security, you can easily identify unauthorized guests, know who is in the building in case of an emergency and much more."
               className="mb-12"
             />
-            <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
+            <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md mb-28">
               Sign up for free
             </button>
           </div>
           <div className="col-start-7 col-end-13 -mr-16">
-            <img src={svg} alt="dashboard" className="mb-8" />
+            <img src={dashboard} alt="dashboard" className="mb-8" />
           </div>
         </div>
 
@@ -50,7 +49,7 @@ const SectionTwo = () => {
               text="With the Workwise app, employees can easily find, and book meeting rooms based on amenities, locations and more."
               className="mb-12"
             />
-            <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md">
+            <button class="bg-primary text-white text-sm font-bold py-4 px-8 rounded-md mb-28">
               Sign up for free
             </button>
           </div>

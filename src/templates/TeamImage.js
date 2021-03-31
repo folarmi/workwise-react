@@ -6,7 +6,7 @@ const TeamImage = ({ image, name, position, className }) => {
       </div>
       <div className="ml-40 -mt-8 w-full">
         <p className="text-primary text-lg font-bold">{name}</p>
-        <p className="font-verybold font-bold text-xs">{position}</p>
+        <p className="font-verybold font-bold text-xs text-black">{position}</p>
       </div>
     </div>
   );

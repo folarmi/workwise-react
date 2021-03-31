@@ -11,7 +11,13 @@ const Reason = () => {
       "
           />
           <SmallText
-            text="Empower your employee to be more productive with user-friendly technology they can access from anywhere."
+            text={
+              <p>
+                Empower your employee to be more productive with user-friendly
+                <br />
+                technology they can access from anywhere.
+              </p>
+            }
             className="leading-relaxed mb-8 lg:max-w-md"
           />
         </div>
@@ -34,9 +40,13 @@ const Reason = () => {
       "
           />
           <SmallText
-            text="  The first step to protecting your team and property? Knowing who’s on
-              site. And with Workwise, you’ll always know who’s arriving, where
-              they’re going and why."
+            text={
+              <p>
+                The first step to protecting your team <br /> and property?
+                Knowing who’s on site. <br /> And with Workwise, you’ll always
+                know who’s arriving, where they’re going and why.
+              </p>
+            }
             className="leading-relaxed mb-8 lg:max-w-md"
           />
         </div>

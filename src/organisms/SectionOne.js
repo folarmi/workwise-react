@@ -23,7 +23,7 @@ const SectionOne = () => {
                 }
                 text="The Workwise platform integrates with your workplace giving you and everyone in your organization a simple and seamless way to operate the workplace and its resources, and it
 helps improve company wide communication so that you can keep everyone informed and focused on what's important—your tasks/goals."
-                className="lg:max-w-sm"
+                className="lg:max-w-sm lg:-ml-20 lg:mt-12"
               />
             </div>
           </section>

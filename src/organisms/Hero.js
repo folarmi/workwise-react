@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <div>
       <Navbar />
-      <div className="grid grid-cols-12">
-        <section className="col-start-2 col-end-8">
+      <div className="grid grid-cols-12 mt-20">
+        <section className="col-start-2 col-end-7">
           <HeaderOne
             text={
               <p>
@@ -22,7 +22,7 @@ const Hero = () => {
 
           <SmallText
             text="We empower productivity and the overall well-being of employees, while fostering an inclusive workplace community."
-            className="my-4 pt-4 lg:max-w-sm text-lightBlack"
+            className="my-4 pt-4 lg:max-w-sm"
           />
           <Link to="/tryforfree">
             <button class="bg-primary focus:outline-none text-white nav-links font-verybold font-medium py-4 px-8 rounded-md">
@@ -33,7 +33,7 @@ const Hero = () => {
             Try for free
           </button> */}
         </section>
-        <section className="mt-12 hidden lg:block col-start-8 col-end-12 lg:-ml-4 mb-4">
+        <section className="mt-12 hidden lg:block col-start-8 col-end-12 lg:-ml-24 mb-4">
           <img src={postcardThree} alt="postcard" className="w-1/2 lg:w-full" />
           <img
             src={postcardTwo}

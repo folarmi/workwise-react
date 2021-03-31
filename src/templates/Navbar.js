@@ -13,7 +13,7 @@ const Navbar = () => {
         </Link>
 
         <nav>
-          <ul className="hidden lg:flex items-center overflow-hidden text-lightBlack">
+          <ul className="hidden lg:flex items-center overflow-hidden">
             <Dropdown />
             {NavbarData.map((item, index) => {
               return (
@@ -27,7 +27,7 @@ const Navbar = () => {
             })}
           </ul>
         </nav>
-        <ul>
+        <ul className="hidden lg:block">
           <Link to="/login">
             <button class="bg-white focus:outline-none text-primary border border-primary font-medium text-xs py-4 px-14 font-verybold mr-4 rounded-md">
               Log in
@@ -45,7 +45,9 @@ const Navbar = () => {
           </Link> */}
         </ul>
       </header>
-      <Sidebar />
+      <div className="ml-64 -mt-14">
+        <Sidebar />
+      </div>
     </div>
   );
 };
