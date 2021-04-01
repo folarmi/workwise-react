@@ -163,11 +163,15 @@ body {
 }
 
 .lineHeight {
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .lightAsh {
   color: #1a1a1a;
+}
+
+.footerText {
+  font-size: 0.85rem;
 }
 /* .grider {
   display: grid;

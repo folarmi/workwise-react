@@ -1,7 +1,7 @@
 import logo from "../assets/Group.png";
 import playStore from "../assets/googlePlay.png";
 import ios from "../assets/iosStore.png";
-import { SmallText } from "../atoms";
+import { SmallText, SmallerText } from "../atoms";
 import { SectionWrapper } from "../layout/SectionWrapper";
 import { Link } from "react-router-dom";
 import facebook from "../assets/facebook.png";
@@ -49,13 +49,13 @@ const Footer = () => {
                 </p>
                 <ul>
                   <li onClick={scrollToTop}>
-                    <SmallText
+                    <SmallerText
                       text="Visitor Management"
-                      className="font-bold my-2"
+                      className="font-extrabold my-2 text-xs"
                     />
                   </li>
                   <li onClick={scrollToTop}>
-                    <SmallText
+                    <SmallerText
                       text="Meeting Rooms"
                       className="font-bold mb-4"
                     />
@@ -79,28 +79,28 @@ const Footer = () => {
                 <ul>
                   <Link to="/requestdemo">
                     <li onClick={scrollToTop}>
-                      <SmallText
+                      <SmallerText
                         text="Request Demo"
                         className="font-bold mb-4"
                       />
                     </li>
                   </Link>
                   <li onClick={scrollToTop}>
-                    <SmallText text="Pricing" className="font-bold mb-4" />
+                    <SmallerText text="Pricing" className="font-bold mb-4" />
                   </li>
                   <li onClick={scrollToTop}>
-                    <SmallText text="Support" className="font-bold mb-4" />
+                    <SmallerText text="Support" className="font-bold mb-4" />
                   </li>
                   <Link to="/hardware">
                     <li onClick={scrollToTop}>
-                      <SmallText text="Hardware" className="font-bold mb-4" />
+                      <SmallerText text="Hardware" className="font-bold mb-4" />
                     </li>
                   </Link>
                   <li onClick={scrollToTop}>
-                    <SmallText text="Learn" className="font-bold mb-4" />
+                    <SmallerText text="Learn" className="font-bold mb-4" />
                   </li>
                   <li onClick={scrollToTop}>
-                    <SmallText text="Support" className="font-bold mb-4" />
+                    <SmallerText text="Support" className="font-bold mb-4" />
                   </li>
                 </ul>
               </section>
@@ -112,30 +112,30 @@ const Footer = () => {
                 <ul>
                   <Link to="aboutus">
                     <li onClick={scrollToTop}>
-                      <SmallText text="About Us" className="font-bold mb-4" />
+                      <SmallerText text="About Us" className="font-bold mb-4" />
                     </li>
                   </Link>
                   <Link to="/contact">
                     <li onClick={scrollToTop}>
-                      <SmallText text="Contact Us" className="font-bold mb-4" />
+                      <SmallerText
+                        text="Contact Us"
+                        className="font-bold mb-4"
+                      />
                     </li>
                   </Link>
-                  <li onClick={scrollToTop}>
-                    <SmallText text="Support" className="font-bold mb-4" />
-                  </li>
                   <Link to="/careers">
                     <li onClick={scrollToTop}>
-                      <SmallText text="Careers" className="font-bold mb-4" />
+                      <SmallerText text="Careers" className="font-bold mb-4" />
                     </li>
                   </Link>
                   <Link to="/blog">
                     <li onClick={scrollToTop}>
-                      <SmallText text="Blog" className="font-bold mb-4" />
+                      <SmallerText text="Blog" className="font-bold mb-4" />
                     </li>
                   </Link>
                   <Link to="datasecurity">
                     <li onClick={scrollToTop}>
-                      <SmallText
+                      <SmallerText
                         text="Data Security"
                         className="font-bold mb-4"
                       />
@@ -148,7 +148,7 @@ const Footer = () => {
             <section className="lg:flex lg:items-center mt-4">
               <Link
                 to="/privacy-policy"
-                className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-4"
+                className="font-verybold font-bold text-xs text-lightBlack leading-relaxed footerText mr-4"
                 onClick={scrollToTop}
               >
                 Privacy Policy
@@ -157,7 +157,7 @@ const Footer = () => {
                 .
               </p>
               <Link to="/termsofservice" onClick={scrollToTop}>
-                <p className="font-verybold font-black text-sm text-lightBlack leading-relaxed mr-24">
+                <p className="font-verybold font-bold text-xs text-lightBlack leading-relaxed footerText mr-24">
                   Terms of Service
                 </p>
               </Link>

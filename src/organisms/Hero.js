@@ -17,7 +17,7 @@ const Hero = () => {
                 Building a <br /> better workplace for everyone
               </p>
             }
-            className="mb-4 lg:text-6xl test"
+            className="mb-4 lg:text-6xl"
           />
 
           <SmallText

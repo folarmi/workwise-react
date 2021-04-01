@@ -1,9 +1,11 @@
 const SmallText = ({ text, className }) => {
   return (
-    <div
-      className={`font-normal text-sm text-lightBlack leading-relaxed ${className}`}
-    >
-      <p>{text}</p>
+    <div>
+      <p
+        className={`font-normal text-sm text-lightBlack leading-relaxed ${className}`}
+      >
+        {text}
+      </p>
     </div>
   );
 };
