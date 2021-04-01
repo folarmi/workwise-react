@@ -13,13 +13,13 @@ const Navbar = () => {
         </Link>
 
         <nav>
-          <ul className="hidden lg:flex items-center overflow-hidden">
+          <ul className="hidden lg:flex items-center text-lightBlack">
             <Dropdown />
             {NavbarData.map((item, index) => {
               return (
                 <li
                   key={index}
-                  className="nav-links mr-10 font-verybold font-semibold"
+                  className="nav-links mr-10 font-verybold font-bold lightAsh"
                 >
                   <Link to={item.path}>{item.title}</Link>
                 </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
           </Link> */}
         </ul>
       </header>
-      <div className="ml-64 -mt-14">
+      <div className="-mt-14 flex justify-end">
         <Sidebar />
       </div>
     </div>

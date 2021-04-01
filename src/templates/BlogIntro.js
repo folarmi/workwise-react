@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 const BlogIntro = () => {
   return (
-    <section className="mt-8 lg:flex lg:justify-between">
-      <div>
-        <Aside title="From Our Blog" className="lg:w-48" />
+    <section className="mt-8 grid grid-cols-12">
+      <div className="col-start-2 col-end-3">
+        <Aside title="From Our Blog" className="lg:w-48 mt-4" />
       </div>
 
-      <section className="mb-12">
+      <section className="mb-12 col-start-5 col-end-13">
         <div className="relative">
           <div className="absolute top-4 left-4 p-4 ml-4 mt-4 bg-white rounded-md h-52 w-44">
             <p className="text-lightBlack text-md font-verybold font-bold mb-12">

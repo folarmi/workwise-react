@@ -3,7 +3,7 @@ import { SmallText } from "../atoms";
 const Reason = () => {
   return (
     <div className="bg-white absolute z-10">
-      <div className="mt-8 lg:flex lg:-mt-28 m-auto w-10/12 relative">
+      <div className="mt-8 md:flex lg:-mt-28 m-auto w-10/12 relative">
         <div className="slim-border rounded-r-none rounded-l-md mt-4 p-8 bg-white">
           <SmallText
             text="Enhance Employee Experience"

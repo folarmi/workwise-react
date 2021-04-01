@@ -1,7 +1,7 @@
 import { HeaderTwo } from "../atoms";
-import dashboard from "../assets/dashboard.png";
-import dashboard2 from "../assets/dashboard2.png";
-import dashboardThree from "../assets/dashboardThree.png";
+import dashboard from "../assets/dashboard.svg";
+import dashboard2 from "../assets/dashboardTwo.svg";
+import dashboardThree from "../assets/dashboardThree.svg";
 import { Aside } from "../molecules";
 import { SectionWrapper } from "../layout/SectionWrapper";
 
@@ -12,7 +12,7 @@ const SectionTwo = () => {
         <div className="mt-64">
           <HeaderTwo
             text="Secure tools to help you run the workplace."
-            className="text-center lg:text-7xl lg:max-w-4xl lg:my-32 font-verybold font-bold lg:ml-44"
+            className="text-center lg:text-7xl lg:my-32 font-verybold font-bold lg:ml-28 lg:max-w-4xl"
           />
         </div>
       </SectionWrapper>

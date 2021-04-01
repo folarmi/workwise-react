@@ -162,11 +162,13 @@ body {
   width: 12%;
 }
 
-.test {
-  left: 213.26px;
-  top: 869px;
+.lineHeight {
+  line-height: 1.3;
 }
 
+.lightAsh {
+  color: #1a1a1a;
+}
 /* .grider {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));

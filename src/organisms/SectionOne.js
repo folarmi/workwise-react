@@ -1,4 +1,4 @@
-import iPhone from "../assets/iPhone.png";
+import iPhone4x from "../assets/iPhone4x.png";
 import { SectionWrapper } from "../layout/SectionWrapper";
 import { Aside } from "../molecules";
 import Reason from "./Reason";
@@ -10,9 +10,9 @@ const SectionOne = () => {
         <SectionWrapper>
           <section className="lg:flex">
             <img
-              src={iPhone}
+              src={iPhone4x}
               alt="iphone"
-              className="object-cover lg:w-8/12 lg:z-20 lg:-mt-12"
+              className="lg:w-8/12 lg:z-20 lg:-mt-12"
             />
             <div className="lg:mt-20">
               <Aside
