@@ -21,7 +21,7 @@ const Reason = () => {
             className="leading-relaxed mb-8 lg:max-w-md"
           />
         </div>
-        <div className="slim-border lg:border-r-0 lg:border-l-0 mt-4 p-8 bg-white">
+        <div className="middle-border lg:border-r-0 lg:border-l-0 mt-4 p-8 bg-white">
           <SmallText
             text="Improve Your Workplace"
             className="font-verybold font-bold my-4

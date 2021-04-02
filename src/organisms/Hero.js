@@ -1,5 +1,5 @@
 import postcard from "../assets/postCard.svg";
-import postcardTwo from "../assets/postCardTwo.svg";
+import postcardTwo from "../assets/postCardTwo.png";
 import postcardThree from "../assets/postCardThree.svg";
 import { HeaderOne, SmallText } from "../atoms";
 import Navbar from "../templates/Navbar";
@@ -34,11 +34,11 @@ const Hero = () => {
           </button> */}
         </section>
         <section className="mt-12 hidden md:block col-start-8 col-end-12 lg:-ml-16 mb-4">
-          <img src={postcardThree} alt="postcard" className="w-full" />
+          <img src={postcardThree} alt="postcard" className="w-full mt-8" />
           <img
             src={postcardTwo}
             alt="postcard"
-            className="ml-20 -mt-8 lg:w-full"
+            className="ml-32 -mt-14 lg:w-full"
           />
           <img src={postcard} alt="postcard" className="-mt-8 ml-4 lg:w-full" />
         </section>

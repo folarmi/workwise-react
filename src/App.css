@@ -114,6 +114,11 @@ body {
   border: 0.5px solid #0a459f;
 }
 
+.middle-border {
+  border-top: 0.5px solid #0a459f;
+  border-bottom: 0.5px solid #0a459f;
+}
+
 .btn-border {
   border: 1.5px solid #0a459f;
 }
@@ -154,6 +159,10 @@ body {
   border: 0.5px solid #808080;
 }
 
+.picture-border {
+  border: 0.14px solid #808080;
+}
+
 .career-width {
   width: 48%;
 }
@@ -173,23 +182,10 @@ body {
 .footerText {
   font-size: 0.85rem;
 }
-/* .grider {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-auto-rows: auto;
-}
 
-.grider .halfwidth {
-  grid-column: 2/6;
+.inner-picture {
+  margin-right: -4.61rem;
 }
-
-.grider .fullwidth {
-  grid-column: 7 / -1;
-} */
-/* .group-border {
-  outline: 0.14px solid #808080;
-  outline-offset: -30px;
-} */
 
 @media screen and (min-width: 1024px) {
   .button {

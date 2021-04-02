@@ -33,7 +33,7 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div className="col-start-7 col-end-13 -mr-16">
+          <div className="col-start-7 col-end-13 inner-picture">
             <img src={dashboard} alt="dashboard" className="mb-8" />
           </div>
         </div>
@@ -53,7 +53,7 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div className="col-start-7 col-end-13 -mr-16">
+          <div className="col-start-7 col-end-13 inner-picture">
             <img src={dashboard2} alt="dashboard" className="mb-8 lg:w-full" />
           </div>
         </div>
@@ -69,7 +69,7 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div className="col-start-7 col-end-13 -mr-16">
+          <div className="col-start-7 col-end-13 inner-picture">
             <img
               src={dashboardThree}
               alt="dashboard"
