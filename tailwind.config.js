@@ -20,6 +20,9 @@ module.exports = {
       verybold: ["Bw Nista Geometric DEMO Bold", "sans-serif"],
       thin: ["Bw Nista Geometric DEMO Thin", "sans-serif"],
     },
+    boxShadow: {
+      menu: "0px 0px 0px 2px rgba(10,69,159,0.19)",
+    },
   },
   variants: {
     extend: {},

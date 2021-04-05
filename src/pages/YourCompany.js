@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/Group.png";
 import { SectionWrapper } from "../layout/SectionWrapper";
 import { LogInIntro } from "../molecules";
 import Input from "../templates/Input";
@@ -10,10 +9,12 @@ const YourCompany = () => {
   return (
     <div>
       <SectionWrapper>
-        <Navbar image={logo} />
+        <div>
+          <Navbar />
+        </div>
 
-        <div className="lg:mt-12 lg:flex">
-          <section className="lg:ml-16 lg:mr-52">
+        <div className="lg:mt-12 lg:grid grid-cols-12 lg:m-auto lg:w-10/12">
+          <section className="col-start-1 col-end-6 lg:ml-4">
             <LogInIntro
               title={
                 <p>
@@ -25,7 +26,7 @@ const YourCompany = () => {
             />
           </section>
 
-          <section className="slim-border rounded-md m-auto w-5/12 py-4 px-8">
+          <section className="slim-border rounded-md col-start-7 col-end-13 py-4 px-8 mb-24">
             <Input
               label="Your company name"
               placeholder="osa@mudia.ment"
@@ -43,12 +44,12 @@ const YourCompany = () => {
 
             <div className="flex">
               <Link to="/tryforfree">
-                <button class="bg-white text-primary border border-primary text-sm my-2 font-bold py-4 px-16 mr-4 rounded-md">
+                <button class="bg-white text-primary border border-primary text-sm my-4 font-bold py-4 px-16 mr-4 rounded-md">
                   Go back
                 </button>
               </Link>
               <Link to="/">
-                <button class="bg-primary text-white  text-sm my-2 font-bold py-4 px-12 rounded-md">
+                <button class="bg-primary text-white  text-sm my-4 font-bold py-4 px-12 rounded-md">
                   Create account
                 </button>
               </Link>

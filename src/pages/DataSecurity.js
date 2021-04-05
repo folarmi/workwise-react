@@ -1,9 +1,8 @@
-import React from "react";
 import NavbarThree from "../templates/NavbarThree";
-import secure from "../assets/secure.png";
-import support from "../assets/support.png";
+import secure from "../assets/secure.svg";
+import support from "../assets/support.svg";
 import privateDashboard from "../assets/privateDashboard.png";
-import wifi from "../assets/wifi.png";
+import wifi from "../assets/wifi.svg";
 import { Aside } from "../molecules";
 import { Footer } from "../organisms";
 
@@ -21,12 +20,12 @@ const DataSecurity = () => {
         <div className="flex">
           <section className="slim-border rounded-r-none rounded-l-md p-8">
             <div>
-              <img src={secure} alt="secure" className="w-1/12" />
+              <img src={secure} alt="secure" className="w-2/12" />
             </div>
             <p className="font-verybold text-lightBlack font-bold my-4">
               Keeping Your Data Secure
             </p>
-            <p>
+            <p className="text-sm leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est
               nisi, cursus hendrerit elementum accumsan, commodo et erat
             </p>
@@ -37,12 +36,12 @@ const DataSecurity = () => {
 
           <section className="slim-border lg:border-r-0 lg:border-l-0 p-8">
             <div>
-              <img src={wifi} alt="secure" className="w-1/12" />
+              <img src={wifi} alt="secure" className="w-2/12" />
             </div>
             <p className="font-verybold text-lightBlack font-bold my-4">
               Protecting Your Privacy
             </p>
-            <p>
+            <p className="text-sm leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est
               nisi, cursus hendrerit elementum accumsan, commodo et erat
             </p>
@@ -53,12 +52,12 @@ const DataSecurity = () => {
 
           <section className="slim-border rounded-l-none rounded-r-md p-8">
             <div>
-              <img src={support} alt="secure" className="w-1/12" />
+              <img src={support} alt="secure" className="w-2/12" />
             </div>
             <p className="font-verybold text-lightBlack font-bold my-4">
               Supporting Compliance Needs
             </p>
-            <p>
+            <p className="text-sm leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est
               nisi, cursus hendrerit elementum accumsan, commodo et erat
             </p>

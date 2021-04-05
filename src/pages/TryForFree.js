@@ -8,10 +8,12 @@ const TryForFree = () => {
   return (
     <div>
       <SectionWrapper>
-        <Navbar />
+        <div>
+          <Navbar />
+        </div>
 
-        <div className="lg:mt-12 lg:flex mb-24">
-          <section className="lg:ml-24 lg:mr-64">
+        <div className="lg:mt-12 lg:grid grid-cols-12 lg:m-auto lg:w-10/12 mb-24">
+          <section className="col-start-1 col-end-5 lg:ml-4">
             <LogInIntro
               title={
                 <p>
@@ -20,23 +22,24 @@ const TryForFree = () => {
                 </p>
               }
               text={
-                <p>
-                  Password must be at least 8 characters and contain at least
-                  one capital letter, one lower case letter and one number.
-                  <br />
-                  <span className="mt-12">
+                <div>
+                  <p>
+                    Password must be at least 8 characters and contain at least
+                    one capital letter, one lower case letter and one number.
+                  </p>
+                  <p className="mt-4">
                     By clicking “Next” you agree to our <br />
                     <Link className="text-primary">
                       Terms of Service, Privacy Policy
                     </Link>
-                  </span>
-                </p>
+                  </p>
+                </div>
               }
               className="max-w-xs"
             />
           </section>
 
-          <section className="slim-border rounded-md m-auto w-5/12  px-8 py-4">
+          <section className="slim-border col-start-7 col-end-13 rounded-md mb-24 px-8 py-4">
             <Input
               label="Your company email"
               placeholder="osa@mudia.ment"
@@ -52,7 +55,7 @@ const TryForFree = () => {
 
             <div className="float-right">
               <Link to="/yourcompany" className="text-right">
-                <button class="bg-primary text-white text-sm font-bold py-4 px-16 rounded-md">
+                <button class="bg-primary text-white text-sm font-medium my-4 py-4 px-20 rounded-md">
                   Next
                 </button>
               </Link>

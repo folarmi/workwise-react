@@ -10,7 +10,12 @@ const LogInIntro = ({ text, title, className, bgColor }) => {
           style={{ backgroundColor: bgColor }}
         />
       </div>
-      <p className="text-primary text-2xl text-medium my-8">{title}</p>
+      <p
+        className="text-primary text-xl font-semibold my-8 font-sans"
+        style={{ fontFamily: "Bw Nista Geometric DEMO" }}
+      >
+        {title}
+      </p>
       <SmallText text={text} className="mt-4" />
     </div>
   );
