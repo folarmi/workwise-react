@@ -13,7 +13,7 @@ const DataSecurity = () => {
         text="Protecting your data and your privacy."
         buttonText="Download PDF"
         path="/"
-        className="lg:max-w-3xl lg:ml-56"
+        className="lg:m-auto w-7/12"
       />
 
       <section className="m-auto w-10/12 mt-20">
@@ -22,7 +22,7 @@ const DataSecurity = () => {
             <div>
               <img src={secure} alt="secure" className="w-2/12" />
             </div>
-            <p className="font-verybold text-lightBlack font-bold my-4">
+            <p className="font-verybold text-lightBlack text-xs font-bold my-4">
               Keeping Your Data Secure
             </p>
             <p className="text-sm leading-relaxed">
@@ -38,7 +38,7 @@ const DataSecurity = () => {
             <div>
               <img src={wifi} alt="secure" className="w-2/12" />
             </div>
-            <p className="font-verybold text-lightBlack font-bold my-4">
+            <p className="font-verybold text-lightBlack text-xs font-bold my-4">
               Protecting Your Privacy
             </p>
             <p className="text-sm leading-relaxed">
@@ -54,7 +54,7 @@ const DataSecurity = () => {
             <div>
               <img src={support} alt="secure" className="w-2/12" />
             </div>
-            <p className="font-verybold text-lightBlack font-bold my-4">
+            <p className="font-verybold text-lightBlack text-xs font-bold my-4">
               Supporting Compliance Needs
             </p>
             <p className="text-sm leading-relaxed">

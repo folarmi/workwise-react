@@ -38,11 +38,6 @@ const Navbar = () => {
               Try for free
             </button>
           </Link>
-          {/* <Link to="/tryforfree">
-            <button class="bg-primary focus:outline-none text-white nav-links font-verybold font-medium py-4 px-8 rounded-md">
-              Try for free
-            </button>
-          </Link> */}
         </ul>
       </header>
       <div className="-mt-14 flex justify-end">

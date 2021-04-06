@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Dropdown = () => {
+const Dropdown = ({ textColor }) => {
   const [showDropDown, setShowDropDown] = useState(false);
   const toggleDropdown = () => {
     setShowDropDown(!showDropDown);
@@ -10,7 +10,8 @@ const Dropdown = () => {
   return (
     <div>
       <p
-        className="nav-links font-verybold font-semibold mr-8 cursor-pointer"
+        className="nav-links font-verybold font-bold mr-10 lightAsh cursor-pointer"
+        style={{ color: textColor }}
         onClick={toggleDropdown}
       >
         Products

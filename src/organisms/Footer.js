@@ -115,7 +115,7 @@ const Footer = () => {
                       <SmallerText text="About Us" className="font-bold mb-4" />
                     </li>
                   </Link>
-                  <Link to="/contact">
+                  <Link to="/contactus">
                     <li onClick={scrollToTop}>
                       <SmallerText
                         text="Contact Us"
