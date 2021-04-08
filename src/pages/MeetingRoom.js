@@ -8,7 +8,7 @@ import privateDashboard from "../assets/privateDashboard.png";
 import meetingtwo from "../assets/meetingTwo.png";
 import calendar from "../assets/calendar.png";
 import app from "../assets/app.png";
-import meetingIpad from "../assets/meetingIpad.png";
+import tablet from "../assets/tablet-ipad.svg";
 import dashTwo from "../assets/dashTwo.png";
 import { HeaderTwo } from "../atoms";
 import organization from "../assets/organizations.png";
@@ -35,8 +35,8 @@ const MeetingRoom = () => {
             receptionist time and energy.
           </p>
           <div className="flex">
-            <img src={googlePlay} alt="googlePlay" className="-ml-4" />
-            <img src={iosStore} alt="iosStore" className="" />
+            <img src={googlePlay} alt="googlePlay" className="-ml-4 w-4/12" />
+            <img src={iosStore} alt="iosStore" className="w-2/6" />
           </div>
         </div>
         <div className="col-start-9 col-end-13 rounded-lg">
@@ -55,7 +55,11 @@ const MeetingRoom = () => {
           </button>
         </div>
         <div className="col-start-7 col-end-13">
-          <img src={privateDashboard} alt="privateDashboard" />
+          <img
+            src={privateDashboard}
+            alt="privateDashboard"
+            className="inner-picture"
+          />
         </div>
       </div>
 
@@ -127,11 +131,7 @@ const MeetingRoom = () => {
 
           <section className="slim-border rounded-l-none rounded-r-md p-8">
             <div>
-              <img
-                src={meetingIpad}
-                alt="meetingIpad"
-                className="meeting-icon"
-              />
+              <img src={tablet} alt="meetingIpad" className="meeting-icon" />
             </div>
             <p className="font-verybold text-lightBlack font-bold my-4">
               Room Displays

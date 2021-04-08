@@ -1,7 +1,8 @@
 import { HeaderTwo } from "../atoms";
 import dashboard from "../assets/dashboard.svg";
-import dashboard2 from "../assets/dashboardTwo.svg";
+// import dashboard2 from "../assets/dashboardTwo.svg";
 import dashboardThree from "../assets/dashboardThree.svg";
+import smartBooking from "../assets/smartBooking.png";
 import { Aside } from "../molecules";
 import { SectionWrapper } from "../layout/SectionWrapper";
 
@@ -53,8 +54,12 @@ const SectionTwo = () => {
               Sign up for free
             </button>
           </div>
-          <div className="col-start-7 col-end-13 inner-picture">
-            <img src={dashboard2} alt="dashboard" className="mb-8 lg:w-full" />
+          <div className="col-start-7 col-end-13">
+            <img
+              src={smartBooking}
+              alt="dashboard"
+              className="mb-8 lg:w-full"
+            />
           </div>
         </div>
 

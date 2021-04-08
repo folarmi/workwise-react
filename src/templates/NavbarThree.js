@@ -7,7 +7,7 @@ import { SectionWrapper } from "../layout/SectionWrapper";
 
 const NavbarThree = ({ buttonText, path, text, className }) => {
   return (
-    <section className="bg-primary pb-12 pt-8 ">
+    <section className="bg-primary pb-16 pt-8 ">
       <SectionWrapper>
         <header className="lg:flex lg:items-center lg:justify-between">
           <Link to="/">
