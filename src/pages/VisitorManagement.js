@@ -138,12 +138,24 @@ const VisitorManagement = () => {
       </div>
 
       <div className="bg-gray">
-        <section className="m-auto w-8/12 py-20">
-          <Aside
-            title="Do more with Workwise’s Visitor Management Feature"
-            text="Design a workplace where everything—visitors, deliveries, rooms—is seamless."
-            className="mb-12"
-          />
+        <section className="m-auto w-4/6 py-20 grid grid-cols-12">
+          <div className="col-start-1 col-end-6">
+            <Aside
+              title="Do more with Workwise’s Visitor Management Feature"
+              text="Design a workplace where everything—visitors, deliveries, rooms—is seamless."
+              className="mb-12"
+            />
+          </div>
+          <div className="col-start-7 col-end-13 ml-48">
+            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+              01. <br /> Don’t keep guests waiting
+            </p>
+            <p className="text-lightBlack text-xs leading-relaxed">
+              Workwise Visitor Management sends email and SMS notifications to
+              the host thereby eliminating the need for the receptionist to
+              track the host down.
+            </p>
+          </div>
         </section>
       </div>
     </div>
