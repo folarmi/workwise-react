@@ -39,7 +39,7 @@ const SectionTwo = () => {
             <img
               src={visitorManage}
               alt="dashboard"
-              className="mb-8 w-1/2 mr-60"
+              className="mb-8 w-1/2 ml-60"
             />
           </div>
         </div>
