@@ -1,7 +1,7 @@
 import {
   Hero,
   SectionOne,
-  SectionThree,
+  // SectionThree,
   SectionTwo,
   SectionFour,
   Footer,
@@ -16,7 +16,7 @@ const Home = () => {
       </SectionWrapper>
       <SectionOne />
       <SectionTwo />
-      <SectionThree />
+      {/* <SectionThree /> */}
       <SectionFour />
       <Footer />
     </div>
