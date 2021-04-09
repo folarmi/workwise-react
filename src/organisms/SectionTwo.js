@@ -1,7 +1,7 @@
 import { HeaderTwo } from "../atoms";
 // import dashboard from "../assets/dashboard.svg";
 // import dashboard2 from "../assets/dashboardTwo.svg";
-import dashboardThree from "../assets/dashboardThree.svg";
+// import dashboardThree from "../assets/dashboardThree.svg";
 import visitorManage from "../assets/visitorSmall.png";
 import smartBooking from "../assets/smartBooking22.png";
 import proximity from "../assets/proximity.png";
