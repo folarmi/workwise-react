@@ -4,6 +4,7 @@ import { HeaderTwo } from "../atoms";
 import dashboardThree from "../assets/dashboardThree.svg";
 import visitorManage from "../assets/visitorSmall.png";
 import smartBooking from "../assets/smartBooking22.png";
+import proximity from "../assets/proximity.png";
 import { Aside } from "../molecules";
 import { SectionWrapper } from "../layout/SectionWrapper";
 
@@ -80,11 +81,7 @@ const SectionTwo = () => {
             </button>
           </div>
           <div className="col-start-7 col-end-13 inner-picture">
-            <img
-              src={dashboardThree}
-              alt="dashboard"
-              className="mb-8 lg:w-full"
-            />
+            <img src={proximity} alt="dashboard" className="mb-8 w-2/6 ml-64" />
           </div>
         </div>
       </div>
