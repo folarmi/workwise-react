@@ -38,7 +38,7 @@ const Hero = () => {
           <img
             src={postcardTwo}
             alt="postcard"
-            className="ml-32 -mt-14 lg:w-full"
+            className="ml-24 -mt-14 lg:w-full"
           />
           <img src={postcard} alt="postcard" className="-mt-8 ml-4 lg:w-full" />
         </section>
