@@ -8,6 +8,9 @@ import googlePlay from "../assets/googlePlay.png";
 import iosStore from "../assets/iosStore.png";
 import visitor from "../assets/visitor.png";
 import visitorOne from "../assets/visitorTwo.png";
+import { BigText } from "../atoms";
+import organization from "../assets/organizations.png";
+import { Footer } from "../organisms";
 
 const VisitorManagement = () => {
   return (
@@ -138,7 +141,7 @@ const VisitorManagement = () => {
       </div>
 
       <div className="bg-gray">
-        <section className="m-auto w-4/6 py-20 grid grid-cols-12">
+        <section className="m-auto w-4/6 pt-20 grid grid-cols-12">
           <div className="col-start-1 col-end-6">
             <Aside
               title="Do more with Workwise’s Visitor Management Feature"
@@ -146,7 +149,7 @@ const VisitorManagement = () => {
               className="mb-12"
             />
           </div>
-          <div className="col-start-7 col-end-13 ml-48">
+          <div className="col-start-10 col-end-13">
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
               01. <br /> Don’t keep guests waiting
             </p>
@@ -157,6 +160,99 @@ const VisitorManagement = () => {
             </p>
           </div>
         </section>
+
+        <section className="m-auto w-4/6  grid grid-cols-12">
+          <div className="col-start-1 col-end-4">
+            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+              02. <br /> Make a great first impression
+            </p>
+            <p className="text-lightBlack text-xs leading-relaxed">
+              Hosts can pre-register guests and send email invites filled with
+              everything they need to know about their upcoming visits to speed
+              up the check-in process.
+            </p>
+          </div>
+
+          <div className="col-start-5 col-end-9">
+            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+              03. <br /> Enhance security
+            </p>
+            <p className="text-lightBlack text-xs leading-relaxed">
+              The first step to protecting your team and property is knowing
+              who’s onsite. With Workwise, you’ll always know who’s arriving,
+              where they are going and why.
+            </p>
+          </div>
+
+          <div className="col-start-10 col-end-13">
+            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+              04. <br /> Do more with your visitor data
+            </p>
+            <p className="text-lightBlack text-xs leading-relaxed">
+              Spot trends to make better decisions like staffing and personnel
+              planning for your reception. You can export unfiltered data from
+              our app or send to reporting tools to help visualize your data.
+            </p>
+          </div>
+        </section>
+
+        <section className="m-auto w-4/6  grid grid-cols-12">
+          <div className="col-start-1 col-end-4">
+            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+              05. <br /> Easily identify unauthorized visitors
+            </p>
+            <p className="text-lightBlack text-xs leading-relaxed">
+              By identifying guests with visitor badges, our app makes it easy
+              to quickly identify people who are on-site without authorization.
+              This can be key in help security keep peace and order in your
+              workplace.
+            </p>
+          </div>
+
+          <div className="col-start-5 col-end-9">
+            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+              06.
+              <br /> Know who’s on site in the case of an emergency In the event
+              of an emergency
+            </p>
+            <p className="text-lightBlack text-xs leading-relaxed">
+              , it is important to be able to account for everyone on-site. With
+              our app, you will have records of guests, their expected location
+              at any given time.
+            </p>
+          </div>
+
+          <div className="col-start-10 col-end-13">
+            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+              07. <br /> Watchlist restricted entries
+            </p>
+            <p className="text-lightBlack text-xs leading-relaxed">
+              Watch lists allow you to keep certain people out, preventing them
+              from ever getting on-site. When the person tries to check in, the
+              receptionist sees a message saying the visitor is not allowed on
+              site and she alerts security who handles the guest properly.
+            </p>
+          </div>
+        </section>
+
+        <BigText
+          text={
+            <p>
+              Boost productivity at the <br /> workplace.
+            </p>
+          }
+          buttonText="Request Demo"
+        />
+
+        <SectionWrapper>
+          <img
+            src={organization}
+            alt="organization"
+            className="object-cover lg:my-36"
+          />
+        </SectionWrapper>
+
+        <Footer />
       </div>
     </div>
   );

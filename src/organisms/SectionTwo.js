@@ -1,4 +1,4 @@
-import { HeaderTwo } from "../atoms";
+import { BigText, HeaderTwo } from "../atoms";
 // import dashboard from "../assets/dashboard.svg";
 // import dashboard2 from "../assets/dashboardTwo.svg";
 // import dashboardThree from "../assets/dashboardThree.svg";
@@ -86,19 +86,14 @@ const SectionTwo = () => {
         </div>
       </div>
 
-      <section className="mt-8 bg-gray border border-primary rounded-lg p-4 lg:mb-32 text-center lg:mt-28 m-auto w-11/12">
-        <HeaderTwo
-          text={
-            <p>
-              Increase employee engagement <br /> through the roof!
-            </p>
-          }
-          className=" lg:mt-12 lg:text-6xl font-verybold font-extrabold"
-        />
-        <button class="bg-primary text-white text-xs font-bold py-4 px-10 rounded-md my-10 text-center">
-          Find out how
-        </button>
-      </section>
+      <BigText
+        text={
+          <p>
+            Increase employee engagement <br /> through the roof!
+          </p>
+        }
+        buttonText="Find out how"
+      />
     </div>
   );
 };
