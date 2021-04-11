@@ -20,19 +20,19 @@ const VisitorManagement = () => {
       </SectionWrapper>
 
       <div className="grid grid-cols-12 mt-12">
-        <div className="col-start-2 col-end-7">
-          <p className="uppercase text-primary text-xs font-bold mb-4 tracking-widest">
+        <div className="col-start-3 col-end-7">
+          <p className="uppercase text-primary text-small font-bold mb-4 track">
             Visitor Management
           </p>
           <p className="text-primary font-bold leading-tight text-5xl">
             Improve how you welcome your <br /> guests.
           </p>
-          <p className="text-sm text-lightBlack my-4">
+          <p className="text-sm leading-relaxed text-lightBlack my-4">
             Welcome guests with an easy-to-use visitor management <br />
             solution that keeps your workplace safe and saves your <br />
             receptionist time and energy.
           </p>
-          <div className="flex items-center">
+          <div className="flex items-center mt-10">
             <img src={googlePlay} alt="googlePlay" className="-ml-4 w-4/12" />
             <img src={iosStore} alt="iosStore" className="w-40 h-12" />
           </div>
@@ -48,7 +48,7 @@ const VisitorManagement = () => {
         </div>
       </div>
 
-      <section className="m-auto w-10/12 my-36">
+      <section className="m-auto w-10/12 my-40">
         <div className="flex">
           <div className="slim-border rounded-r-none rounded-l-md mt-4 p-12 bg-white">
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
@@ -150,10 +150,11 @@ const VisitorManagement = () => {
             />
           </div>
           <div className="col-start-10 col-end-13">
-            <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
+            <p className="font-verybold text-lightBlack font-bold text-sm my-4">
+              {/* font-normal text-sm text-lightBlack leading-relaxed */}
               01. <br /> Don’t keep guests waiting
             </p>
-            <p className="text-lightBlack text-xs leading-relaxed">
+            <p className="font-normal text-sm text-lightBlack leading-relaxed">
               Workwise Visitor Management sends email and SMS notifications to
               the host thereby eliminating the need for the receptionist to
               track the host down.
@@ -161,12 +162,12 @@ const VisitorManagement = () => {
           </div>
         </section>
 
-        <section className="m-auto w-4/6  grid grid-cols-12">
+        <section className="m-auto w-4/6 grid grid-cols-12 mt-8">
           <div className="col-start-1 col-end-4">
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
               02. <br /> Make a great first impression
             </p>
-            <p className="text-lightBlack text-xs leading-relaxed">
+            <p className="font-normal text-sm text-lightBlack leading-relaxed">
               Hosts can pre-register guests and send email invites filled with
               everything they need to know about their upcoming visits to speed
               up the check-in process.
@@ -177,7 +178,7 @@ const VisitorManagement = () => {
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
               03. <br /> Enhance security
             </p>
-            <p className="text-lightBlack text-xs leading-relaxed">
+            <p className="font-normal text-sm text-lightBlack leading-relaxed">
               The first step to protecting your team and property is knowing
               who’s onsite. With Workwise, you’ll always know who’s arriving,
               where they are going and why.
@@ -188,7 +189,7 @@ const VisitorManagement = () => {
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
               04. <br /> Do more with your visitor data
             </p>
-            <p className="text-lightBlack text-xs leading-relaxed">
+            <p className="font-normal text-sm text-lightBlack leading-relaxed">
               Spot trends to make better decisions like staffing and personnel
               planning for your reception. You can export unfiltered data from
               our app or send to reporting tools to help visualize your data.
@@ -196,12 +197,12 @@ const VisitorManagement = () => {
           </div>
         </section>
 
-        <section className="m-auto w-4/6  grid grid-cols-12">
+        <section className="m-auto w-4/6 grid grid-cols-12 mt-8">
           <div className="col-start-1 col-end-4">
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
               05. <br /> Easily identify unauthorized visitors
             </p>
-            <p className="text-lightBlack text-xs leading-relaxed">
+            <p className="font-normal text-sm text-lightBlack leading-relaxed">
               By identifying guests with visitor badges, our app makes it easy
               to quickly identify people who are on-site without authorization.
               This can be key in help security keep peace and order in your
@@ -212,13 +213,12 @@ const VisitorManagement = () => {
           <div className="col-start-5 col-end-9">
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
               06.
-              <br /> Know who’s on site in the case of an emergency In the event
-              of an emergency
+              <br /> Know who’s on site in the case of an emergency
             </p>
-            <p className="text-lightBlack text-xs leading-relaxed">
-              , it is important to be able to account for everyone on-site. With
-              our app, you will have records of guests, their expected location
-              at any given time.
+            <p className="font-normal text-sm text-lightBlack leading-relaxed">
+              In the event of an emergency,it is important to be able to account
+              for everyone on-site. With our app, you will have records of
+              guests, their expected location at any given time.
             </p>
           </div>
 
@@ -226,7 +226,7 @@ const VisitorManagement = () => {
             <p className="font-verybold text-lightBlack font-bold text-sm  my-4">
               07. <br /> Watchlist restricted entries
             </p>
-            <p className="text-lightBlack text-xs leading-relaxed">
+            <p className="font-normal text-sm text-lightBlack leading-relaxed">
               Watch lists allow you to keep certain people out, preventing them
               from ever getting on-site. When the person tries to check in, the
               receptionist sees a message saying the visitor is not allowed on

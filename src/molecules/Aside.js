@@ -7,7 +7,7 @@ const Aside = ({ title, text, className }) => {
       <p className="text-primary text-xl font-bold my-2 lg:my-8 lg:max-w-xs">
         {title}
       </p>
-      <SmallText text={text} className="lg:leading-relaxed" />
+      <SmallText text={text} className="" />
     </div>
   );
 };

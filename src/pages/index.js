@@ -19,3 +19,4 @@ export * from "./Careers";
 export * from "./VisitorManagement";
 export * from "./PrivacyPolicy";
 export * from "./MeetingRoom";
+export * from "./EmployeeClockIn";

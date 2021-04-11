@@ -191,13 +191,9 @@ body {
   margin-right: -4.61rem;
 }
 
-.input-font {
-  font-family: "Bw Nista Geometric DEMO";
+.track {
+  letter-spacing: 0.2rem;
 }
-
-/* .boxShadow {
-  
-} */
 
 @media screen and (min-width: 1024px) {
   .button {

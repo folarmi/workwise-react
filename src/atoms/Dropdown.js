@@ -32,9 +32,11 @@ const Dropdown = ({ textColor }) => {
                 Meeting Rooms
               </li>
             </Link>
-            <li className="nav-links text-lightBlack font-verybold font-bold">
-              Employee clock-in
-            </li>
+            <Link to="/employee-clock-in">
+              <li className="nav-links text-lightBlack font-verybold font-bold">
+                Employee clock-in
+              </li>
+            </Link>
           </ul>
         </div>
       ) : (

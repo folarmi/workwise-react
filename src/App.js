@@ -22,6 +22,7 @@ import {
   VisitorManagement,
   PrivacyPolicy,
   MeetingRoom,
+  EmployeeClockIn,
 } from "./pages";
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <Route path="/careers" exact component={Careers} />
           <Route path="/privacy-policy" exact component={PrivacyPolicy} />
           <Route path="/meeting-room" exact component={MeetingRoom} />
+          <Route path="/employee-clock-in" exact component={EmployeeClockIn} />
           <Route
             path="/visitor-management"
             exact
