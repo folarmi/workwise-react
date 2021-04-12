@@ -8,7 +8,7 @@ const SectionOne = () => {
     <div>
       <section className="bg-gray ">
         <SectionWrapper>
-          <section className="lg:flex">
+          <section className="lg:flex items-start">
             <img
               src={iPhone4x}
               alt="iphone"
