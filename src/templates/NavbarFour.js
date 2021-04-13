@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import { NavbarData } from "../data/NavData";
 import Sidebar from "./Sidebar";
 import whiteLogo from "../assets/whitelogo.svg";
+import lens from "../assets/lens.svg";
 import { Dropdown } from "../atoms";
 import { SectionWrapper } from "../layout/SectionWrapper";
 
-const NavbarThree = ({ buttonText, path, text, className, textTwo }) => {
+const NavbarFour = ({ text, className, textTwo }) => {
   return (
     <section className="bg-primary pb-16 pt-8 ">
       <SectionWrapper>
@@ -55,12 +56,15 @@ const NavbarThree = ({ buttonText, path, text, className, textTwo }) => {
           <p className="text-center text-white text-sm font-extralight pb-8">
             {textTwo}
           </p>
-          <div className="text-center">
-            <Link to={path}>
-              <button class="bg-white focus:outline-none text-primary nav-links font-verybold font-semibold py-4 px-10 text-xs rounded-md">
-                {buttonText}
-              </button>
-            </Link>
+          <div className="text-center w-full relative">
+            <span>
+              <img src={lens} alt="lens" className="absolute ml-64" />
+            </span>
+            <input
+              type="text"
+              placeholder="Search for articles, resources, etc..."
+              className="p-2 rounded-lg w-1/2"
+            />
           </div>
         </div>
       </SectionWrapper>
@@ -68,4 +72,4 @@ const NavbarThree = ({ buttonText, path, text, className, textTwo }) => {
   );
 };
 
-export default NavbarThree;
+export default NavbarFour;

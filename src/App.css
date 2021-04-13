@@ -195,6 +195,10 @@ body {
   letter-spacing: 0.2rem;
 }
 
+.learn {
+  margin-left: 2.7rem;
+}
+
 @media screen and (min-width: 1024px) {
   .button {
     margin-left: 32rem;

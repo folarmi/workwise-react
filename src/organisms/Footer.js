@@ -48,18 +48,22 @@ const Footer = () => {
                   Products
                 </p>
                 <ul>
-                  <li onClick={scrollToTop}>
-                    <SmallerText
-                      text="Visitor Management"
-                      className="font-extrabold my-2 text-xs"
-                    />
-                  </li>
-                  <li onClick={scrollToTop}>
-                    <SmallerText
-                      text="Meeting Rooms"
-                      className="font-bold mb-4"
-                    />
-                  </li>
+                  <Link to="visitor-management">
+                    <li onClick={scrollToTop}>
+                      <SmallerText
+                        text="Visitor Management"
+                        className="font-extrabold my-2 text-xs"
+                      />
+                    </li>
+                  </Link>
+                  <Link to="meeting-room">
+                    <li onClick={scrollToTop}>
+                      <SmallerText
+                        text="Meeting Rooms"
+                        className="font-bold mb-4"
+                      />
+                    </li>
+                  </Link>
                   <img
                     src={playStore}
                     alt="playStore"
@@ -85,23 +89,31 @@ const Footer = () => {
                       />
                     </li>
                   </Link>
-                  <li onClick={scrollToTop}>
-                    <SmallerText text="Pricing" className="font-bold mb-4" />
-                  </li>
-                  <li onClick={scrollToTop}>
-                    <SmallerText text="Support" className="font-bold mb-4" />
-                  </li>
+                  <Link to="pricing">
+                    <li onClick={scrollToTop}>
+                      <SmallerText text="Pricing" className="font-bold mb-4" />
+                    </li>
+                  </Link>
+                  <Link to="/contactus">
+                    <li onClick={scrollToTop}>
+                      <SmallerText text="Support" className="font-bold mb-4" />
+                    </li>
+                  </Link>
                   <Link to="/hardware">
                     <li onClick={scrollToTop}>
                       <SmallerText text="Hardware" className="font-bold mb-4" />
                     </li>
                   </Link>
-                  <li onClick={scrollToTop}>
-                    <SmallerText text="Learn" className="font-bold mb-4" />
-                  </li>
-                  <li onClick={scrollToTop}>
-                    <SmallerText text="Support" className="font-bold mb-4" />
-                  </li>
+                  <Link to="/learn">
+                    <li onClick={scrollToTop}>
+                      <SmallerText text="Learn" className="font-bold mb-4" />
+                    </li>
+                  </Link>
+                  <Link to="/contactus">
+                    <li onClick={scrollToTop}>
+                      <SmallerText text="Support" className="font-bold mb-4" />
+                    </li>
+                  </Link>
                 </ul>
               </section>
 

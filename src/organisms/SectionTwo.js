@@ -1,7 +1,4 @@
-import { BigText, HeaderTwo } from "../atoms";
-// import dashboard from "../assets/dashboard.svg";
-// import dashboard2 from "../assets/dashboardTwo.svg";
-// import dashboardThree from "../assets/dashboardThree.svg";
+import { HeaderTwo } from "../atoms";
 import visitorManage from "../assets/visitorSmall.png";
 import smartBooking from "../assets/smartBooking22.png";
 import proximity from "../assets/proximity.png";
@@ -85,15 +82,6 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
-
-      <BigText
-        text={
-          <p>
-            Increase employee engagement <br /> through the roof!
-          </p>
-        }
-        buttonText="Find out how"
-      />
     </div>
   );
 };

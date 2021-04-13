@@ -19,9 +19,11 @@ const Dropdown = ({ textColor }) => {
       {showDropDown ? (
         <div className="mt-2 absolute w-44 bg-white shadow-lg rounded-lg p-4">
           <ul className="">
-            <li className="nav-links text-lightBlack text-base font-verybold font-bold mb-4">
-              Workwise
-            </li>
+            <Link to="/workwise">
+              <li className="nav-links text-lightBlack text-base font-verybold font-bold mb-4">
+                Workwise
+              </li>
+            </Link>
             <Link to="visitor-management">
               <li className="nav-links text-lightBlack font-verybold font-bold mb-4">
                 Visitor management

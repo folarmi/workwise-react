@@ -13,6 +13,7 @@ module.exports = {
         ashTwo: "#c4c4c4",
         lightBlack: "#1a1a1a",
         ashOne: "#808080",
+        lightBlue: "#EEF4FF",
       },
       fontSize: {
         small: ".60rem",
