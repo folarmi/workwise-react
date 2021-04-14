@@ -106,8 +106,8 @@ const Workwise = () => {
       <section className="m-auto w-9/12 my-36 grid grid-cols-12">
         <div className="col-start-1 col-end-6">
           <section
-            className="rounded-t-lg px-12 pt-16"
-            style={{ backgroundColor: "#FAFAFA" }}
+            className="rounded-t-lg"
+            style={{ backgroundColor: "#EEF4FF" }}
           >
             <img src={workwiseFive} alt="workwise" className="" />
           </section>
