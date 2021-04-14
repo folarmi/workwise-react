@@ -24,9 +24,9 @@ const Hardware = () => {
         <img src={hardware} alt="hardware" />
       </section>
 
-      <div className="lg:flex m-auto w-9/12 mt-40 lg:mb-24">
+      <div className="lg:flex justify-between m-auto w-9/12 mt-40 lg:mb-24">
         <section className="mt-12 w-1/2">
-          <HardwareImage image={ipad} title="Ipad" className="mb-12" />
+          <HardwareImage image={ipad} title="IPad" className="mb-12" />
           <HardwareImage
             image={tablet}
             title="Android Tablet"
@@ -39,6 +39,7 @@ const Hardware = () => {
           <HardwareImage
             image={printer}
             title="Brother QL-820NWB Badge Printer"
+            className="mt-12"
           />
         </section>
       </div>
